@@ -149,32 +149,43 @@ div[data-testid="stToolbarActions"],
 
 /* Seluruh tombol di navbar (Share, Bintang, Edit, GitHub, Menu Titik Tiga, Status Lokal, Toggle Sidebar) */
 div[data-testid="stToolbar"] button,
+div[data-testid="stToolbar"] a,
 div[data-testid="stHeaderActionElements"] button,
+div[data-testid="stHeaderActionElements"] a,
 button[data-testid="baseButton-header"],
 button[data-testid="baseButton-headerNoPadding"],
 button[data-testid="stSidebarCollapseButton"],
-[data-testid="stToolbarActionButton"] button {
+[data-testid="stToolbarActionButton"] button,
+[data-testid="stToolbarActionButton"] a {
     background-color: #FFFFFF !important;
     border: 1px solid #CBD5E1 !important;
     border-radius: 6px !important;
     color: #0F172A !important;
     padding: 0.25rem 0.55rem !important;
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05) !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
     transition: all 0.2s ease !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 div[data-testid="stToolbar"] button:hover,
+div[data-testid="stToolbar"] a:hover,
 div[data-testid="stHeaderActionElements"] button:hover,
+div[data-testid="stHeaderActionElements"] a:hover,
 button[data-testid="baseButton-header"]:hover,
 button[data-testid="baseButton-headerNoPadding"]:hover,
 button[data-testid="stSidebarCollapseButton"]:hover,
-[data-testid="stToolbarActionButton"] button:hover {
+[data-testid="stToolbarActionButton"] button:hover,
+[data-testid="stToolbarActionButton"] a:hover {
     background-color: #F1F5F9 !important;
     border-color: #94A3B8 !important;
     color: #EF4444 !important;
 }
 
-/* Teks dan Icon SVG di dalam Navbar Header */
+/* Teks dan seluruh elemen anak di dalam Navbar Header */
 header[data-testid="stHeader"] *,
 div[data-testid="stToolbar"] *,
 div[data-testid="stHeaderActionElements"] *,
@@ -182,20 +193,34 @@ div[data-testid="stToolbar"] span,
 div[data-testid="stToolbar"] a,
 div[data-testid="stToolbar"] p {
     color: #0F172A !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
+/* Kunci seluruh elemen SVG dan path anak di dalamnya agar TIDAK putih */
 header[data-testid="stHeader"] svg,
+header[data-testid="stHeader"] svg *,
 div[data-testid="stToolbar"] svg,
+div[data-testid="stToolbar"] svg *,
 div[data-testid="stHeaderActionElements"] svg,
-button[data-testid="stSidebarCollapseButton"] svg {
+div[data-testid="stHeaderActionElements"] svg *,
+button[data-testid="stSidebarCollapseButton"] svg,
+button[data-testid="stSidebarCollapseButton"] svg * {
     color: #0F172A !important;
     fill: #0F172A !important;
     stroke: #0F172A !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
 
 header[data-testid="stHeader"] button:hover svg,
+header[data-testid="stHeader"] button:hover svg *,
 div[data-testid="stToolbar"] button:hover svg,
-button[data-testid="stSidebarCollapseButton"]:hover svg {
+div[data-testid="stToolbar"] button:hover svg *,
+div[data-testid="stToolbar"] a:hover svg,
+div[data-testid="stToolbar"] a:hover svg *,
+button[data-testid="stSidebarCollapseButton"]:hover svg,
+button[data-testid="stSidebarCollapseButton"]:hover svg * {
     color: #EF4444 !important;
     fill: #EF4444 !important;
     stroke: #EF4444 !important;
