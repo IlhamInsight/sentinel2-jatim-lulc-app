@@ -101,140 +101,34 @@ CLASS_CONFIG = {
 }
 
 # ==============================================================================
-# 3. Custom CSS Design System (High Contrast & Light Mode Enforced)
+# 3. Custom CSS Design System (Merujuk pada DESIGN.md & code.html)
 # ==============================================================================
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
-/* Lock Global Text Color to Dark (#0F172A) to prevent Dark Mode bug */
-html, body, [class*="css"], .stApp {
+html, body, [class*="css"] {
     font-family: 'Inter', sans-serif !important;
-    background-color: #F8FAFC !important;
-    color: #0F172A !important;
-}
-
-/* Force dark typography across all standard markdown, text, headers */
-.stMarkdown, .stMarkdown p, .stMarkdown span, .stMarkdown div,
-.stText, .stText p, .stText span,
-div[data-testid="stMarkdownContainer"] p,
-div[data-testid="stMarkdownContainer"] span,
-div[data-testid="stMarkdownContainer"] li,
-h1, h2, h3, h4, h5, h6 {
-    color: #0F172A !important;
-    font-family: 'Inter', sans-serif !important;
+    color: #0F172A;
 }
 
 code, kbd, samp, pre, .font-mono {
     font-family: 'JetBrains Mono', monospace !important;
 }
 
-/* Universal Header & Navbar Toolbar: Bersih, Terang, & Tajam (Lokal & Cloud) */
-header[data-testid="stHeader"] {
+/* Background Canvas */
+.stApp {
     background-color: #F8FAFC !important;
-    border-bottom: 1px solid #E2E8F0 !important;
-    z-index: 999990 !important;
 }
 
-/* Hilangkan latar gelap bawaan container toolbar */
-header[data-testid="stHeader"] div,
-header[data-testid="stHeader"] span,
-div[data-testid="stToolbar"],
-div[data-testid="stHeaderActionElements"],
-div[data-testid="stToolbarActions"],
-[data-testid="stToolbarActionButton"] {
-    background-color: transparent !important;
-    background: transparent !important;
-}
-
-/* Seluruh tombol di navbar (Share, Bintang, Edit, GitHub, Menu Titik Tiga, Status Lokal, Toggle Sidebar) */
-div[data-testid="stToolbar"] button,
-div[data-testid="stToolbar"] a,
-div[data-testid="stHeaderActionElements"] button,
-div[data-testid="stHeaderActionElements"] a,
-button[data-testid="baseButton-header"],
-button[data-testid="baseButton-headerNoPadding"],
-button[data-testid="stSidebarCollapseButton"],
-[data-testid="stToolbarActionButton"] button,
-[data-testid="stToolbarActionButton"] a {
-    background-color: #FFFFFF !important;
-    border: 1px solid #CBD5E1 !important;
-    border-radius: 6px !important;
+/* Proteksi teks konten dan widget agar tetap gelap kontras */
+div[data-testid="stCheckbox"] label,
+div[data-testid="stCheckbox"] label p,
+div[data-testid="stRadio"] label,
+div[data-testid="stRadio"] label p,
+.class-filter-pill,
+.class-filter-pill span {
     color: #0F172A !important;
-    padding: 0.25rem 0.55rem !important;
-    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05) !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    transition: all 0.2s ease !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
-div[data-testid="stToolbar"] button:hover,
-div[data-testid="stToolbar"] a:hover,
-div[data-testid="stHeaderActionElements"] button:hover,
-div[data-testid="stHeaderActionElements"] a:hover,
-button[data-testid="baseButton-header"]:hover,
-button[data-testid="baseButton-headerNoPadding"]:hover,
-button[data-testid="stSidebarCollapseButton"]:hover,
-[data-testid="stToolbarActionButton"] button:hover,
-[data-testid="stToolbarActionButton"] a:hover {
-    background-color: #F1F5F9 !important;
-    border-color: #94A3B8 !important;
-    color: #EF4444 !important;
-}
-
-/* Teks dan seluruh elemen anak di dalam Navbar Header */
-header[data-testid="stHeader"] *,
-div[data-testid="stToolbar"] *,
-div[data-testid="stHeaderActionElements"] *,
-div[data-testid="stToolbar"] span,
-div[data-testid="stToolbar"] a,
-div[data-testid="stToolbar"] p {
-    color: #0F172A !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
-/* Kunci seluruh elemen SVG dan path anak di dalamnya agar TIDAK putih */
-header[data-testid="stHeader"] svg,
-header[data-testid="stHeader"] svg *,
-div[data-testid="stToolbar"] svg,
-div[data-testid="stToolbar"] svg *,
-div[data-testid="stHeaderActionElements"] svg,
-div[data-testid="stHeaderActionElements"] svg *,
-button[data-testid="stSidebarCollapseButton"] svg,
-button[data-testid="stSidebarCollapseButton"] svg * {
-    color: #0F172A !important;
-    fill: #0F172A !important;
-    stroke: #0F172A !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-}
-
-header[data-testid="stHeader"] button:hover svg,
-header[data-testid="stHeader"] button:hover svg *,
-div[data-testid="stToolbar"] button:hover svg,
-div[data-testid="stToolbar"] button:hover svg *,
-div[data-testid="stToolbar"] a:hover svg,
-div[data-testid="stToolbar"] a:hover svg *,
-button[data-testid="stSidebarCollapseButton"]:hover svg,
-button[data-testid="stSidebarCollapseButton"]:hover svg * {
-    color: #EF4444 !important;
-    fill: #EF4444 !important;
-    stroke: #EF4444 !important;
-}
-
-/* Sembunyikan garis dekorasi bawaan Streamlit yang mengganggu */
-div[data-testid="stDecoration"] {
-    display: none !important;
-}
-
-/* Padding rapi halaman utama */
-.block-container {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
 }
 
 /* Signature Streamlit Accent Gradient Bar */
@@ -242,14 +136,14 @@ div[data-testid="stDecoration"] {
     height: 4px;
     background: linear-gradient(90deg, #EF4444 0%, #F43F5E 50%, #F59E0B 100%);
     width: 100%;
-    margin: 0 0 1.25rem 0;
+    margin: -1.5rem 0 1.25rem 0;
     border-radius: 2px;
 }
 
 /* App Header Card */
 .app-header-card {
-    background: #FFFFFF !important;
-    border: 1px solid #E2E8F0 !important;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
     border-radius: 12px;
     padding: 1.25rem 1.75rem;
     margin-bottom: 1.25rem;
@@ -258,7 +152,7 @@ div[data-testid="stDecoration"] {
 .app-header-title {
     font-size: 1.65rem;
     font-weight: 800;
-    color: #0F172A !important;
+    color: #0F172A;
     letter-spacing: -0.02em;
     line-height: 1.25;
     margin-bottom: 0.6rem;
@@ -269,10 +163,7 @@ div[data-testid="stDecoration"] {
     align-items: center;
     gap: 0.75rem;
     font-size: 0.8rem;
-    color: #475569 !important;
-}
-.app-meta-row span, .app-meta-row b {
-    color: #475569 !important;
+    color: #64748B;
 }
 .badge-tech {
     display: inline-flex;
@@ -285,19 +176,19 @@ div[data-testid="stDecoration"] {
     font-weight: 600;
 }
 .badge-tech-blue {
-    background: #EFF6FF !important;
-    color: #1D4ED8 !important;
-    border: 1px solid #BFDBFE !important;
+    background: #EFF6FF;
+    color: #1D4ED8;
+    border: 1px solid #BFDBFE;
 }
 .badge-tech-emerald {
-    background: #ECFDF5 !important;
-    color: #047857 !important;
-    border: 1px solid #A7F3D0 !important;
+    background: #ECFDF5;
+    color: #047857;
+    border: 1px solid #A7F3D0;
 }
 .badge-tech-slate {
-    background: #F1F5F9 !important;
-    color: #475569 !important;
-    border: 1px solid #CBD5E1 !important;
+    background: #F1F5F9;
+    color: #475569;
+    border: 1px solid #CBD5E1;
 }
 .pulse-circle {
     width: 6px;
@@ -312,12 +203,6 @@ section[data-testid="stSidebar"] {
     background-color: #F8FAFC !important;
     border-right: 1px solid #E2E8F0 !important;
 }
-section[data-testid="stSidebar"] p,
-section[data-testid="stSidebar"] span,
-section[data-testid="stSidebar"] div,
-section[data-testid="stSidebar"] label {
-    color: #0F172A !important;
-}
 .sidebar-title-box {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #E2E8F0;
@@ -328,34 +213,7 @@ section[data-testid="stSidebar"] label {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #0F172A !important;
-}
-
-/* Widget Labels: Checkbox, Radio, Selectbox, Slider, Input */
-div[data-testid="stCheckbox"] label,
-div[data-testid="stCheckbox"] label p,
-div[data-testid="stCheckbox"] label span,
-div[data-testid="stCheckbox"] label div,
-div[data-testid="stRadio"] label,
-div[data-testid="stRadio"] label p,
-div[data-testid="stRadio"] label span,
-div[data-testid="stRadio"] label div,
-div[role="radiogroup"] label div p,
-div[data-testid="stSelectbox"] label,
-div[data-testid="stSelectbox"] label p,
-div[data-testid="stTextInput"] label,
-div[data-testid="stTextInput"] label p,
-div[data-testid="stFileUploader"] label,
-div[data-testid="stFileUploader"] label p,
-div[data-testid="stSlider"] label,
-div[data-testid="stSlider"] label p {
-    color: #0F172A !important;
-    font-weight: 500 !important;
-}
-
-div[data-baseweb="select"] div,
-div[data-baseweb="select"] span {
-    color: #0F172A !important;
+    color: #0F172A;
 }
 
 /* Class Swatch Item in Sidebar */
@@ -364,17 +222,12 @@ div[data-baseweb="select"] span {
     align-items: center;
     justify-content: space-between;
     padding: 0.45rem 0.65rem;
-    background: #FFFFFF !important;
+    background: #FFFFFF;
     border: 1px solid #E2E8F0;
     border-radius: 6px;
     margin-bottom: 0.4rem;
     font-size: 0.8rem;
     font-weight: 500;
-    color: #0F172A !important;
-}
-.class-filter-pill span,
-.class-filter-pill b {
-    color: #0F172A !important;
 }
 .class-dot {
     width: 10px;
@@ -386,8 +239,8 @@ div[data-baseweb="select"] span {
 .class-count {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.7rem;
-    color: #64748B !important;
-    background: #F1F5F9 !important;
+    color: #64748B;
+    background: #F1F5F9;
     padding: 0.1rem 0.4rem;
     border-radius: 3px;
     border: 1px solid #E2E8F0;
@@ -398,32 +251,18 @@ div[data-baseweb="select"] span {
     gap: 1.5rem;
     border-bottom: 1px solid #E2E8F0;
     margin-bottom: 1.25rem;
-    background-color: transparent !important;
 }
 .stTabs [data-baseweb="tab"] {
     font-size: 0.875rem !important;
     font-weight: 500 !important;
-    color: #475569 !important;
+    color: #64748B !important;
     padding: 0.65rem 0.25rem !important;
     border-bottom: 2px solid transparent !important;
-    background-color: transparent !important;
-}
-.stTabs [data-baseweb="tab"] p,
-.stTabs [data-baseweb="tab"] span,
-.stTabs [data-baseweb="tab"] div {
-    color: #475569 !important;
-    font-weight: 500 !important;
 }
 .stTabs [aria-selected="true"] {
     color: #EF4444 !important;
     border-bottom: 2px solid #EF4444 !important;
-    font-weight: 700 !important;
-}
-.stTabs [aria-selected="true"] p,
-.stTabs [aria-selected="true"] span,
-.stTabs [aria-selected="true"] div {
-    color: #EF4444 !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 /* KPI Metric Cards */
@@ -475,14 +314,14 @@ div.stButton > button[kind="primary"]:hover {
     margin: 1rem 0;
 }
 .band-card {
-    background: #FFFFFF !important;
+    background: #FFFFFF;
     border: 1px solid #E2E8F0;
     border-radius: 8px;
     padding: 0.85rem;
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
 }
 .band-card-highlight {
-    background: #F0FDFA !important;
+    background: #F0FDFA;
     border: 1px solid #5EEAD4;
     border-radius: 8px;
     padding: 0.85rem;
@@ -492,17 +331,17 @@ div.stButton > button[kind="primary"]:hover {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
     font-weight: 700;
-    color: #334155 !important;
+    color: #334155;
 }
 .band-meta {
     font-size: 0.68rem;
-    color: #94A3B8 !important;
+    color: #94A3B8;
 }
 .band-val {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.1rem;
     font-weight: 700;
-    color: #0F172A !important;
+    color: #0F172A;
     margin: 0.35rem 0;
 }
 .band-progress-bg {
@@ -514,42 +353,13 @@ div.stButton > button[kind="primary"]:hover {
 }
 .band-desc {
     font-size: 0.68rem;
-    color: #64748B !important;
+    color: #64748B;
     margin-top: 0.35rem;
-}
-
-/* Alert Boxes */
-div[data-testid="stAlert"] {
-    border-radius: 8px !important;
-}
-div[data-testid="stAlert"] p {
-    color: #0F172A !important;
-}
-
-/* Expander Header */
-div[data-testid="stExpander"] details summary p,
-div[data-testid="stExpander"] details summary span {
-    color: #0F172A !important;
-    font-weight: 600 !important;
-}
-
-/* Table & Dataframe */
-div[data-testid="stTable"] table {
-    background-color: #FFFFFF !important;
-    color: #0F172A !important;
-}
-div[data-testid="stTable"] th {
-    background-color: #F8FAFC !important;
-    color: #334155 !important;
-    font-weight: 600 !important;
-}
-div[data-testid="stTable"] td {
-    color: #0F172A !important;
 }
 
 /* Footer Card */
 .app-footer {
-    background: #FFFFFF !important;
+    background: #FFFFFF;
     border-top: 1px solid #E2E8F0;
     padding: 1rem 1.5rem;
     margin-top: 2rem;
@@ -560,7 +370,7 @@ div[data-testid="stTable"] td {
     justify-content: space-between;
     gap: 0.5rem;
     font-size: 0.75rem;
-    color: #64748B !important;
+    color: #64748B;
 }
 </style>
 """, unsafe_allow_html=True)
