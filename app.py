@@ -131,13 +131,6 @@ div[data-testid="stRadio"] label p,
     color: #0F172A !important;
 }
 
-/* Full-width Top Navbar (Membentang penuh dari ujung kiri sampai ujung kanan) */
-header[data-testid="stHeader"] {
-    left: 0 !important;
-    width: 100% !important;
-    z-index: 999999 !important;
-}
-
 /* Signature Streamlit Accent Gradient Bar */
 .top-accent-bar {
     height: 4px;
