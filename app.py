@@ -607,7 +607,7 @@ with st.sidebar:
     
     basemap_option = st.selectbox(
         "Pilihan Citra Satelit / Basemap:",
-        ["Esri World Imagery (Satelit Resolusi Tinggi)", "OpenStreetMap Topo-Carto", "CartoDB Positron"]
+        ["Esri World Imagery (Satelit Resolusi Tinggi)", "OpenStreetMap Standard"]
     )
 
     st.markdown("""
@@ -719,19 +719,11 @@ with tab1:
                 overlay=False,
                 control=True
             ).add_to(m)
-        elif basemap_option.startswith("OpenStreetMap"):
+        else:
             folium.TileLayer(
                 tiles="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 attr="OpenStreetMap",
                 name="OpenStreetMap",
-                overlay=False,
-                control=True
-            ).add_to(m)
-        else:
-            folium.TileLayer(
-                tiles="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                attr="CartoDB Positron",
-                name="CartoDB Positron",
                 overlay=False,
                 control=True
             ).add_to(m)
