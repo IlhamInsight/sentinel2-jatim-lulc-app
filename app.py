@@ -129,55 +129,76 @@ code, kbd, samp, pre, .font-mono {
     font-family: 'JetBrains Mono', monospace !important;
 }
 
-/* Streamlit Cloud Navbar / Header Toolbar (Dark Sleek Navbar with Crisp White Icons) */
+/* Universal Header & Navbar Toolbar: Bersih, Terang, & Tajam (Lokal & Cloud) */
 header[data-testid="stHeader"] {
-    background-color: #0E1117 !important;
-    border-bottom: 1px solid #1E293B !important;
+    background-color: #F8FAFC !important;
+    border-bottom: 1px solid #E2E8F0 !important;
     z-index: 999990 !important;
 }
 
-/* Seluruh fitur navbar (Share, Star, Edit, GitHub, Menu titik tiga, Toggle) berwarna putih terang */
+/* Hilangkan latar gelap bawaan container toolbar */
+header[data-testid="stHeader"] div,
+header[data-testid="stHeader"] span,
+div[data-testid="stToolbar"],
+div[data-testid="stHeaderActionElements"],
+div[data-testid="stToolbarActions"],
+[data-testid="stToolbarActionButton"] {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Seluruh tombol di navbar (Share, Bintang, Edit, GitHub, Menu Titik Tiga, Status Lokal, Toggle Sidebar) */
+div[data-testid="stToolbar"] button,
+div[data-testid="stHeaderActionElements"] button,
+button[data-testid="baseButton-header"],
+button[data-testid="baseButton-headerNoPadding"],
+button[data-testid="stSidebarCollapseButton"],
+[data-testid="stToolbarActionButton"] button {
+    background-color: #FFFFFF !important;
+    border: 1px solid #CBD5E1 !important;
+    border-radius: 6px !important;
+    color: #0F172A !important;
+    padding: 0.25rem 0.55rem !important;
+    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.05) !important;
+    transition: all 0.2s ease !important;
+}
+
+div[data-testid="stToolbar"] button:hover,
+div[data-testid="stHeaderActionElements"] button:hover,
+button[data-testid="baseButton-header"]:hover,
+button[data-testid="baseButton-headerNoPadding"]:hover,
+button[data-testid="stSidebarCollapseButton"]:hover,
+[data-testid="stToolbarActionButton"] button:hover {
+    background-color: #F1F5F9 !important;
+    border-color: #94A3B8 !important;
+    color: #EF4444 !important;
+}
+
+/* Teks dan Icon SVG di dalam Navbar Header */
 header[data-testid="stHeader"] *,
 div[data-testid="stToolbar"] *,
 div[data-testid="stHeaderActionElements"] *,
-div[data-testid="stHeaderActionElements"] button,
-div[data-testid="stToolbar"] button,
-div[data-testid="stToolbar"] a,
 div[data-testid="stToolbar"] span,
-div[data-testid="stToolbarActionButton"] button,
-button[data-testid="baseButton-header"],
-button[data-testid="baseButton-headerNoPadding"],
-button[data-testid="stSidebarCollapseButton"] {
-    color: #FFFFFF !important;
-    fill: #FFFFFF !important;
-    stroke: #FFFFFF !important;
+div[data-testid="stToolbar"] a,
+div[data-testid="stToolbar"] p {
+    color: #0F172A !important;
 }
 
 header[data-testid="stHeader"] svg,
 div[data-testid="stToolbar"] svg,
 div[data-testid="stHeaderActionElements"] svg,
 button[data-testid="stSidebarCollapseButton"] svg {
-    color: #FFFFFF !important;
-    fill: #FFFFFF !important;
-    stroke: #FFFFFF !important;
+    color: #0F172A !important;
+    fill: #0F172A !important;
+    stroke: #0F172A !important;
 }
 
-/* Tombol Navbar dibuat rapi dengan efek pill berlatar halus */
-div[data-testid="stToolbar"] button,
-div[data-testid="stHeaderActionElements"] button,
-button[data-testid="baseButton-header"] {
-    background-color: rgba(255, 255, 255, 0.12) !important;
-    border: 1px solid rgba(255, 255, 255, 0.25) !important;
-    border-radius: 6px !important;
-    padding: 0.2rem 0.6rem !important;
-    transition: all 0.2s ease !important;
-}
-
-div[data-testid="stToolbar"] button:hover,
-div[data-testid="stHeaderActionElements"] button:hover,
-button[data-testid="baseButton-header"]:hover {
-    background-color: rgba(255, 255, 255, 0.25) !important;
-    border-color: rgba(255, 255, 255, 0.5) !important;
+header[data-testid="stHeader"] button:hover svg,
+div[data-testid="stToolbar"] button:hover svg,
+button[data-testid="stSidebarCollapseButton"]:hover svg {
+    color: #EF4444 !important;
+    fill: #EF4444 !important;
+    stroke: #EF4444 !important;
 }
 
 /* Sembunyikan garis dekorasi bawaan Streamlit yang mengganggu */
