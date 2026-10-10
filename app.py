@@ -1156,7 +1156,7 @@ with tab2:
         st.markdown(f"""
         <div style="background: #FFFFFF; border: 2px solid {pred_info['color']}; border-radius: 10px; padding: 1.1rem 1.4rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.04);">
             <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
-                <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: {pred_info['color']};">Hasil Klasifikasi AI</span>
+                <span style="font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: {pred_info['color']};">Hasil Klasifikasi Model</span>
                 <span style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; background: #F1F5F9; padding: 0.15rem 0.5rem; border-radius: 4px; font-weight: 600;">Confidence: {pred_proba[pred_label]*100:.2f}%</span>
             </div>
             <div style="font-size: 1.5rem; font-weight: 800; color: #0F172A;">
