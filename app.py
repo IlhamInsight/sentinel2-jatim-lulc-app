@@ -607,7 +607,7 @@ with st.sidebar:
     
     basemap_option = st.selectbox(
         "Pilihan Citra Satelit / Basemap:",
-        ["Esri World Imagery (Satelit Resolusi Tinggi)", "OpenStreetMap Standard"]
+        ["Esri World Imagery (Satelit Resolusi Tinggi)", "Google Satellite Hybrid", "OpenStreetMap Standard"]
     )
 
     st.markdown("""
@@ -716,6 +716,14 @@ with tab1:
                 tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 attr="Esri World Imagery",
                 name="Satelit Esri",
+                overlay=False,
+                control=True
+            ).add_to(m)
+        elif "Google" in basemap_option:
+            folium.TileLayer(
+                tiles="https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+                attr="Google Hybrid",
+                name="Google Satellite Hybrid",
                 overlay=False,
                 control=True
             ).add_to(m)
