@@ -101,24 +101,32 @@ CLASS_CONFIG = {
 }
 
 # ==============================================================================
-# 3. Custom CSS Design System (Merujuk pada DESIGN.md & code.html)
+# 3. Custom CSS Design System (High Contrast & Light Mode Enforced)
 # ==============================================================================
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
-html, body, [class*="css"] {
+/* Lock Global Text Color to Dark (#0F172A) to prevent Dark Mode bug */
+html, body, [class*="css"], .stApp {
     font-family: 'Inter', sans-serif !important;
-    color: #0F172A;
+    background-color: #F8FAFC !important;
+    color: #0F172A !important;
+}
+
+/* Force dark typography across all standard markdown, text, headers */
+.stMarkdown, .stMarkdown p, .stMarkdown span, .stMarkdown div,
+.stText, .stText p, .stText span,
+div[data-testid="stMarkdownContainer"] p,
+div[data-testid="stMarkdownContainer"] span,
+div[data-testid="stMarkdownContainer"] li,
+h1, h2, h3, h4, h5, h6 {
+    color: #0F172A !important;
+    font-family: 'Inter', sans-serif !important;
 }
 
 code, kbd, samp, pre, .font-mono {
     font-family: 'JetBrains Mono', monospace !important;
-}
-
-/* Background Canvas */
-.stApp {
-    background-color: #F8FAFC !important;
 }
 
 /* Signature Streamlit Accent Gradient Bar */
@@ -132,8 +140,8 @@ code, kbd, samp, pre, .font-mono {
 
 /* App Header Card */
 .app-header-card {
-    background: #FFFFFF;
-    border: 1px solid #E2E8F0;
+    background: #FFFFFF !important;
+    border: 1px solid #E2E8F0 !important;
     border-radius: 12px;
     padding: 1.25rem 1.75rem;
     margin-bottom: 1.25rem;
@@ -142,7 +150,7 @@ code, kbd, samp, pre, .font-mono {
 .app-header-title {
     font-size: 1.65rem;
     font-weight: 800;
-    color: #0F172A;
+    color: #0F172A !important;
     letter-spacing: -0.02em;
     line-height: 1.25;
     margin-bottom: 0.6rem;
@@ -153,7 +161,10 @@ code, kbd, samp, pre, .font-mono {
     align-items: center;
     gap: 0.75rem;
     font-size: 0.8rem;
-    color: #64748B;
+    color: #475569 !important;
+}
+.app-meta-row span, .app-meta-row b {
+    color: #475569 !important;
 }
 .badge-tech {
     display: inline-flex;
@@ -166,19 +177,19 @@ code, kbd, samp, pre, .font-mono {
     font-weight: 600;
 }
 .badge-tech-blue {
-    background: #EFF6FF;
-    color: #1D4ED8;
-    border: 1px solid #BFDBFE;
+    background: #EFF6FF !important;
+    color: #1D4ED8 !important;
+    border: 1px solid #BFDBFE !important;
 }
 .badge-tech-emerald {
-    background: #ECFDF5;
-    color: #047857;
-    border: 1px solid #A7F3D0;
+    background: #ECFDF5 !important;
+    color: #047857 !important;
+    border: 1px solid #A7F3D0 !important;
 }
 .badge-tech-slate {
-    background: #F1F5F9;
-    color: #475569;
-    border: 1px solid #CBD5E1;
+    background: #F1F5F9 !important;
+    color: #475569 !important;
+    border: 1px solid #CBD5E1 !important;
 }
 .pulse-circle {
     width: 6px;
@@ -193,6 +204,12 @@ section[data-testid="stSidebar"] {
     background-color: #F8FAFC !important;
     border-right: 1px solid #E2E8F0 !important;
 }
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] div,
+section[data-testid="stSidebar"] label {
+    color: #0F172A !important;
+}
 .sidebar-title-box {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #E2E8F0;
@@ -203,7 +220,34 @@ section[data-testid="stSidebar"] {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.06em;
-    color: #0F172A;
+    color: #0F172A !important;
+}
+
+/* Widget Labels: Checkbox, Radio, Selectbox, Slider, Input */
+div[data-testid="stCheckbox"] label,
+div[data-testid="stCheckbox"] label p,
+div[data-testid="stCheckbox"] label span,
+div[data-testid="stCheckbox"] label div,
+div[data-testid="stRadio"] label,
+div[data-testid="stRadio"] label p,
+div[data-testid="stRadio"] label span,
+div[data-testid="stRadio"] label div,
+div[role="radiogroup"] label div p,
+div[data-testid="stSelectbox"] label,
+div[data-testid="stSelectbox"] label p,
+div[data-testid="stTextInput"] label,
+div[data-testid="stTextInput"] label p,
+div[data-testid="stFileUploader"] label,
+div[data-testid="stFileUploader"] label p,
+div[data-testid="stSlider"] label,
+div[data-testid="stSlider"] label p {
+    color: #0F172A !important;
+    font-weight: 500 !important;
+}
+
+div[data-baseweb="select"] div,
+div[data-baseweb="select"] span {
+    color: #0F172A !important;
 }
 
 /* Class Swatch Item in Sidebar */
@@ -212,12 +256,17 @@ section[data-testid="stSidebar"] {
     align-items: center;
     justify-content: space-between;
     padding: 0.45rem 0.65rem;
-    background: #FFFFFF;
+    background: #FFFFFF !important;
     border: 1px solid #E2E8F0;
     border-radius: 6px;
     margin-bottom: 0.4rem;
     font-size: 0.8rem;
     font-weight: 500;
+    color: #0F172A !important;
+}
+.class-filter-pill span,
+.class-filter-pill b {
+    color: #0F172A !important;
 }
 .class-dot {
     width: 10px;
@@ -229,8 +278,8 @@ section[data-testid="stSidebar"] {
 .class-count {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.7rem;
-    color: #64748B;
-    background: #F1F5F9;
+    color: #64748B !important;
+    background: #F1F5F9 !important;
     padding: 0.1rem 0.4rem;
     border-radius: 3px;
     border: 1px solid #E2E8F0;
@@ -241,18 +290,32 @@ section[data-testid="stSidebar"] {
     gap: 1.5rem;
     border-bottom: 1px solid #E2E8F0;
     margin-bottom: 1.25rem;
+    background-color: transparent !important;
 }
 .stTabs [data-baseweb="tab"] {
     font-size: 0.875rem !important;
     font-weight: 500 !important;
-    color: #64748B !important;
+    color: #475569 !important;
     padding: 0.65rem 0.25rem !important;
     border-bottom: 2px solid transparent !important;
+    background-color: transparent !important;
+}
+.stTabs [data-baseweb="tab"] p,
+.stTabs [data-baseweb="tab"] span,
+.stTabs [data-baseweb="tab"] div {
+    color: #475569 !important;
+    font-weight: 500 !important;
 }
 .stTabs [aria-selected="true"] {
     color: #EF4444 !important;
     border-bottom: 2px solid #EF4444 !important;
-    font-weight: 600 !important;
+    font-weight: 700 !important;
+}
+.stTabs [aria-selected="true"] p,
+.stTabs [aria-selected="true"] span,
+.stTabs [aria-selected="true"] div {
+    color: #EF4444 !important;
+    font-weight: 700 !important;
 }
 
 /* KPI Metric Cards */
@@ -304,14 +367,14 @@ div.stButton > button[kind="primary"]:hover {
     margin: 1rem 0;
 }
 .band-card {
-    background: #FFFFFF;
+    background: #FFFFFF !important;
     border: 1px solid #E2E8F0;
     border-radius: 8px;
     padding: 0.85rem;
     box-shadow: 0 1px 2px rgba(15, 23, 42, 0.03);
 }
 .band-card-highlight {
-    background: #F0FDFA;
+    background: #F0FDFA !important;
     border: 1px solid #5EEAD4;
     border-radius: 8px;
     padding: 0.85rem;
@@ -321,17 +384,17 @@ div.stButton > button[kind="primary"]:hover {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
     font-weight: 700;
-    color: #334155;
+    color: #334155 !important;
 }
 .band-meta {
     font-size: 0.68rem;
-    color: #94A3B8;
+    color: #94A3B8 !important;
 }
 .band-val {
     font-family: 'JetBrains Mono', monospace;
     font-size: 1.1rem;
     font-weight: 700;
-    color: #0F172A;
+    color: #0F172A !important;
     margin: 0.35rem 0;
 }
 .band-progress-bg {
@@ -343,13 +406,42 @@ div.stButton > button[kind="primary"]:hover {
 }
 .band-desc {
     font-size: 0.68rem;
-    color: #64748B;
+    color: #64748B !important;
     margin-top: 0.35rem;
+}
+
+/* Alert Boxes */
+div[data-testid="stAlert"] {
+    border-radius: 8px !important;
+}
+div[data-testid="stAlert"] p {
+    color: #0F172A !important;
+}
+
+/* Expander Header */
+div[data-testid="stExpander"] details summary p,
+div[data-testid="stExpander"] details summary span {
+    color: #0F172A !important;
+    font-weight: 600 !important;
+}
+
+/* Table & Dataframe */
+div[data-testid="stTable"] table {
+    background-color: #FFFFFF !important;
+    color: #0F172A !important;
+}
+div[data-testid="stTable"] th {
+    background-color: #F8FAFC !important;
+    color: #334155 !important;
+    font-weight: 600 !important;
+}
+div[data-testid="stTable"] td {
+    color: #0F172A !important;
 }
 
 /* Footer Card */
 .app-footer {
-    background: #FFFFFF;
+    background: #FFFFFF !important;
     border-top: 1px solid #E2E8F0;
     padding: 1rem 1.5rem;
     margin-top: 2rem;
@@ -360,7 +452,7 @@ div.stButton > button[kind="primary"]:hover {
     justify-content: space-between;
     gap: 0.5rem;
     font-size: 0.75rem;
-    color: #64748B;
+    color: #64748B !important;
 }
 </style>
 """, unsafe_allow_html=True)
