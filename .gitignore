@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Streamlit config/cache
+.streamlit/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# PENTING: Jangan ignore model_terbaik.pkl karena dibutuhkan untuk deployment di Streamlit Cloud!
+!models/model_terbaik.pkl
