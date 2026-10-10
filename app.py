@@ -121,13 +121,48 @@ code, kbd, samp, pre, .font-mono {
     background-color: #F8FAFC !important;
 }
 
-/* Proteksi teks konten dan widget agar tetap gelap kontras */
+/* Proteksi Kontras Teks Global (Kebal Dark Mode & System Mode) */
+.stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
+div[data-testid="stHeadingWithActionElements"] h1,
+div[data-testid="stHeadingWithActionElements"] h2,
+div[data-testid="stHeadingWithActionElements"] h3,
+div[data-testid="stHeadingWithActionElements"] h4,
+div[data-testid="stHeadingWithActionElements"] h5,
+div[data-testid="stHeadingWithActionElements"] h6,
+div[data-testid="stMarkdownContainer"] h1,
+div[data-testid="stMarkdownContainer"] h2,
+div[data-testid="stMarkdownContainer"] h3,
+div[data-testid="stMarkdownContainer"] h4,
+div[data-testid="stMarkdownContainer"] h5,
+div[data-testid="stMarkdownContainer"] h6 {
+    color: #0F172A !important;
+}
+
+div[data-testid="stMarkdownContainer"] p,
+div[data-testid="stCaptionContainer"] p,
+div[data-testid="stWidgetLabel"] label,
+div[data-testid="stWidgetLabel"] label p,
+div[data-testid="stWidgetLabel"] label span {
+    color: #334155 !important;
+}
+
 div[data-testid="stCheckbox"] label,
-div[data-testid="stCheckbox"] label p,
+div[data-testid="stCheckbox"] label *,
 div[data-testid="stRadio"] label,
-div[data-testid="stRadio"] label p,
+div[data-testid="stRadio"] label *,
+div[data-testid="stSelectbox"] label,
+div[data-testid="stSelectbox"] label *,
 .class-filter-pill,
 .class-filter-pill span {
+    color: #0F172A !important;
+}
+
+section[data-testid="stSidebar"] p,
+section[data-testid="stSidebar"] span,
+section[data-testid="stSidebar"] label,
+section[data-testid="stSidebar"] h1,
+section[data-testid="stSidebar"] h2,
+section[data-testid="stSidebar"] h3 {
     color: #0F172A !important;
 }
 
@@ -252,14 +287,20 @@ section[data-testid="stSidebar"] {
     border-bottom: 1px solid #E2E8F0;
     margin-bottom: 1.25rem;
 }
-.stTabs [data-baseweb="tab"] {
+.stTabs [data-baseweb="tab"],
+.stTabs [data-baseweb="tab"] p,
+.stTabs [data-baseweb="tab"] span,
+.stTabs [data-baseweb="tab"] div {
     font-size: 0.875rem !important;
     font-weight: 500 !important;
     color: #64748B !important;
     padding: 0.65rem 0.25rem !important;
     border-bottom: 2px solid transparent !important;
 }
-.stTabs [aria-selected="true"] {
+.stTabs [aria-selected="true"],
+.stTabs [aria-selected="true"] p,
+.stTabs [aria-selected="true"] span,
+.stTabs [aria-selected="true"] div {
     color: #EF4444 !important;
     border-bottom: 2px solid #EF4444 !important;
     font-weight: 600 !important;
