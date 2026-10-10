@@ -129,12 +129,59 @@ code, kbd, samp, pre, .font-mono {
     font-family: 'JetBrains Mono', monospace !important;
 }
 
+/* Fix Streamlit Top Header & Toolbar (Hilangkan bilah hitam & buat teks Share / ikon terlihat tajam) */
+header[data-testid="stHeader"] {
+    background-color: #F8FAFC !important;
+    border-bottom: 1px solid #E2E8F0 !important;
+    z-index: 999990 !important;
+}
+
+header[data-testid="stHeader"] *,
+div[data-testid="stToolbar"] *,
+div[data-testid="stHeaderActionElements"] *,
+div[data-testid="stHeaderActionElements"] button,
+div[data-testid="stToolbar"] button,
+div[data-testid="stToolbar"] a,
+div[data-testid="stToolbar"] span {
+    color: #1E293B !important;
+    fill: #1E293B !important;
+    stroke: #1E293B !important;
+}
+
+header[data-testid="stHeader"] svg,
+div[data-testid="stToolbar"] svg,
+div[data-testid="stHeaderActionElements"] svg {
+    color: #1E293B !important;
+    fill: #1E293B !important;
+}
+
+/* Tombol Sidebar Toggle di Header */
+button[data-testid="stSidebarCollapseButton"],
+button[data-testid="baseButton-headerNoPadding"],
+button[data-testid="stSidebarCollapseButton"] svg,
+button[data-testid="baseButton-headerNoPadding"] svg {
+    color: #1E293B !important;
+    fill: #1E293B !important;
+    background: transparent !important;
+}
+
+/* Sembunyikan garis dekorasi bawaan Streamlit yang mengganggu */
+div[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+/* Padding rapi halaman utama */
+.block-container {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
 /* Signature Streamlit Accent Gradient Bar */
 .top-accent-bar {
     height: 4px;
     background: linear-gradient(90deg, #EF4444 0%, #F43F5E 50%, #F59E0B 100%);
     width: 100%;
-    margin: -1.5rem 0 1.25rem 0;
+    margin: 0 0 1.25rem 0;
     border-radius: 2px;
 }
 
