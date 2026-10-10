@@ -129,40 +129,55 @@ code, kbd, samp, pre, .font-mono {
     font-family: 'JetBrains Mono', monospace !important;
 }
 
-/* Fix Streamlit Top Header & Toolbar (Hilangkan bilah hitam & buat teks Share / ikon terlihat tajam) */
+/* Streamlit Cloud Navbar / Header Toolbar (Dark Sleek Navbar with Crisp White Icons) */
 header[data-testid="stHeader"] {
-    background-color: #F8FAFC !important;
-    border-bottom: 1px solid #E2E8F0 !important;
+    background-color: #0E1117 !important;
+    border-bottom: 1px solid #1E293B !important;
     z-index: 999990 !important;
 }
 
+/* Seluruh fitur navbar (Share, Star, Edit, GitHub, Menu titik tiga, Toggle) berwarna putih terang */
 header[data-testid="stHeader"] *,
 div[data-testid="stToolbar"] *,
 div[data-testid="stHeaderActionElements"] *,
 div[data-testid="stHeaderActionElements"] button,
 div[data-testid="stToolbar"] button,
 div[data-testid="stToolbar"] a,
-div[data-testid="stToolbar"] span {
-    color: #1E293B !important;
-    fill: #1E293B !important;
-    stroke: #1E293B !important;
+div[data-testid="stToolbar"] span,
+div[data-testid="stToolbarActionButton"] button,
+button[data-testid="baseButton-header"],
+button[data-testid="baseButton-headerNoPadding"],
+button[data-testid="stSidebarCollapseButton"] {
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
 }
 
 header[data-testid="stHeader"] svg,
 div[data-testid="stToolbar"] svg,
-div[data-testid="stHeaderActionElements"] svg {
-    color: #1E293B !important;
-    fill: #1E293B !important;
+div[data-testid="stHeaderActionElements"] svg,
+button[data-testid="stSidebarCollapseButton"] svg {
+    color: #FFFFFF !important;
+    fill: #FFFFFF !important;
+    stroke: #FFFFFF !important;
 }
 
-/* Tombol Sidebar Toggle di Header */
-button[data-testid="stSidebarCollapseButton"],
-button[data-testid="baseButton-headerNoPadding"],
-button[data-testid="stSidebarCollapseButton"] svg,
-button[data-testid="baseButton-headerNoPadding"] svg {
-    color: #1E293B !important;
-    fill: #1E293B !important;
-    background: transparent !important;
+/* Tombol Navbar dibuat rapi dengan efek pill berlatar halus */
+div[data-testid="stToolbar"] button,
+div[data-testid="stHeaderActionElements"] button,
+button[data-testid="baseButton-header"] {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-radius: 6px !important;
+    padding: 0.2rem 0.6rem !important;
+    transition: all 0.2s ease !important;
+}
+
+div[data-testid="stToolbar"] button:hover,
+div[data-testid="stHeaderActionElements"] button:hover,
+button[data-testid="baseButton-header"]:hover {
+    background-color: rgba(255, 255, 255, 0.25) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
 }
 
 /* Sembunyikan garis dekorasi bawaan Streamlit yang mengganggu */
