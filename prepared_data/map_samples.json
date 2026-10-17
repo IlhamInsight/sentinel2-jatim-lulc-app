@@ -1,0 +1,5861 @@
+[
+  {
+    "id": "JTM-BUI-001",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.8927,
+      111.95973
+    ],
+    "conf": 99.4,
+    "ndvi": 0.15,
+    "ndwi": -0.18,
+    "ndbi": 0.05,
+    "mangrove": 0.38,
+    "evi": 0.06,
+    "bsi": 0.01,
+    "spec": [
+      17,
+      16,
+      16,
+      21,
+      23,
+      18
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-002",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pendidikan Lowokwaru Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.89128,
+      111.96655
+    ],
+    "conf": 100.0,
+    "ndvi": 0.04,
+    "ndwi": -0.01,
+    "ndbi": -0.01,
+    "mangrove": 0.08,
+    "evi": 0.25,
+    "bsi": -0.03,
+    "spec": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-003",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Industri Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.50701,
+      111.47249
+    ],
+    "conf": 62.2,
+    "ndvi": 0.24,
+    "ndwi": -0.39,
+    "ndbi": 0.1,
+    "mangrove": 0.35,
+    "evi": 0.17,
+    "bsi": 0.11,
+    "spec": [
+      25,
+      29,
+      33,
+      53,
+      66,
+      58
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-004",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.39926,
+      111.44824
+    ],
+    "conf": 99.4,
+    "ndvi": 0.35,
+    "ndwi": -0.52,
+    "ndbi": 0.12,
+    "mangrove": 0.52,
+    "evi": 0.19,
+    "bsi": 0.15,
+    "spec": [
+      14,
+      19,
+      23,
+      48,
+      61,
+      47
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-005",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Semen Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.3979,
+      111.44703
+    ],
+    "conf": 100.0,
+    "ndvi": 0.12,
+    "ndwi": -0.35,
+    "ndbi": 0.14,
+    "mangrove": 0.17,
+    "evi": 0.08,
+    "bsi": 0.14,
+    "spec": [
+      28,
+      31,
+      37,
+      47,
+      63,
+      60
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-006",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Semen Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.39443,
+      111.44801
+    ],
+    "conf": 95.2,
+    "ndvi": 0.15,
+    "ndwi": -0.44,
+    "ndbi": 0.13,
+    "mangrove": 0.22,
+    "evi": 0.09,
+    "bsi": 0.18,
+    "spec": [
+      22,
+      27,
+      39,
+      53,
+      70,
+      60
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-007",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.3902,
+      111.45469
+    ],
+    "conf": 61.5,
+    "ndvi": 0.25,
+    "ndwi": -0.36,
+    "ndbi": 0.04,
+    "mangrove": 0.39,
+    "evi": 0.2,
+    "bsi": 0.08,
+    "spec": [
+      30,
+      36,
+      43,
+      71,
+      77,
+      59
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-008",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.39334,
+      111.45164
+    ],
+    "conf": 67.7,
+    "ndvi": 0.29,
+    "ndwi": -0.39,
+    "ndbi": 0.06,
+    "mangrove": 0.43,
+    "evi": 0.2,
+    "bsi": 0.09,
+    "spec": [
+      22,
+      27,
+      30,
+      55,
+      62,
+      54
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-009",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.1563,
+      111.88067
+    ],
+    "conf": 98.9,
+    "ndvi": 0.24,
+    "ndwi": -0.4,
+    "ndbi": 0.1,
+    "mangrove": 0.38,
+    "evi": 0.16,
+    "bsi": 0.14,
+    "spec": [
+      22,
+      29,
+      34,
+      56,
+      69,
+      62
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-010",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.15187,
+      111.87385
+    ],
+    "conf": 100.0,
+    "ndvi": 0.12,
+    "ndwi": -0.4,
+    "ndbi": 0.17,
+    "mangrove": 0.21,
+    "evi": 0.08,
+    "bsi": 0.19,
+    "spec": [
+      27,
+      33,
+      43,
+      55,
+      78,
+      72
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-011",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59311,
+      111.42818
+    ],
+    "conf": 100.0,
+    "ndvi": 0.1,
+    "ndwi": -0.24,
+    "ndbi": 0.09,
+    "mangrove": 0.16,
+    "evi": 0.1,
+    "bsi": 0.09,
+    "spec": [
+      46,
+      50,
+      56,
+      68,
+      82,
+      75
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-012",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59053,
+      111.42652
+    ],
+    "conf": 99.7,
+    "ndvi": 0.15,
+    "ndwi": -0.36,
+    "ndbi": 0.18,
+    "mangrove": 0.26,
+    "evi": 0.11,
+    "bsi": 0.15,
+    "spec": [
+      28,
+      31,
+      34,
+      47,
+      67,
+      62
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-013",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Semen Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.61003,
+      111.89741
+    ],
+    "conf": 100.0,
+    "ndvi": 0.07,
+    "ndwi": -0.29,
+    "ndbi": 0.21,
+    "mangrove": 0.12,
+    "evi": 0.07,
+    "bsi": 0.14,
+    "spec": [
+      45,
+      47,
+      49,
+      56,
+      86,
+      90
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-014",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.60575,
+      111.90054
+    ],
+    "conf": 100.0,
+    "ndvi": 0.06,
+    "ndwi": -0.27,
+    "ndbi": 0.17,
+    "mangrove": 0.1,
+    "evi": 0.05,
+    "bsi": 0.14,
+    "spec": [
+      40,
+      44,
+      48,
+      54,
+      77,
+      77
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-015",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.60539,
+      111.90666
+    ],
+    "conf": 100.0,
+    "ndvi": 0.13,
+    "ndwi": -0.29,
+    "ndbi": 0.12,
+    "mangrove": 0.2,
+    "evi": 0.11,
+    "bsi": 0.12,
+    "spec": [
+      36,
+      41,
+      46,
+      59,
+      75,
+      71
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-016",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Semen Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.60017,
+      111.91223
+    ],
+    "conf": 100.0,
+    "ndvi": 0.03,
+    "ndwi": -0.22,
+    "ndbi": 0.16,
+    "mangrove": 0.08,
+    "evi": 0.03,
+    "bsi": 0.12,
+    "spec": [
+      44,
+      46,
+      49,
+      52,
+      73,
+      67
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-017",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.6001,
+      111.91129
+    ],
+    "conf": 100.0,
+    "ndvi": 0.03,
+    "ndwi": -0.09,
+    "ndbi": 0.07,
+    "mangrove": 0.02,
+    "evi": 0.04,
+    "bsi": 0.05,
+    "spec": [
+      67,
+      73,
+      72,
+      76,
+      88,
+      81
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-018",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Industri Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59966,
+      111.91813
+    ],
+    "conf": 100.0,
+    "ndvi": 0.03,
+    "ndwi": -0.25,
+    "ndbi": 0.19,
+    "mangrove": 0.07,
+    "evi": 0.03,
+    "bsi": 0.15,
+    "spec": [
+      55,
+      61,
+      66,
+      69,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-019",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.60081,
+      111.92028
+    ],
+    "conf": 99.5,
+    "ndvi": 0.24,
+    "ndwi": -0.34,
+    "ndbi": 0.07,
+    "mangrove": 0.42,
+    "evi": 0.17,
+    "bsi": 0.08,
+    "spec": [
+      25,
+      29,
+      31,
+      51,
+      60,
+      52
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-020",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Industri Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.16602,
+      111.87658
+    ],
+    "conf": 100.0,
+    "ndvi": 0.05,
+    "ndwi": -0.13,
+    "ndbi": 0.06,
+    "mangrove": 0.09,
+    "evi": 0.08,
+    "bsi": 0.05,
+    "spec": [
+      70,
+      74,
+      77,
+      86,
+      96,
+      84
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-021",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.1647,
+      111.89146
+    ],
+    "conf": 100.0,
+    "ndvi": 0.02,
+    "ndwi": -0.29,
+    "ndbi": 0.22,
+    "mangrove": 0.02,
+    "evi": 0.02,
+    "bsi": 0.18,
+    "spec": [
+      44,
+      50,
+      55,
+      57,
+      90,
+      98
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-022",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Semen Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.15259,
+      111.90174
+    ],
+    "conf": 100.0,
+    "ndvi": 0.06,
+    "ndwi": -0.23,
+    "ndbi": 0.16,
+    "mangrove": 0.1,
+    "evi": 0.06,
+    "bsi": 0.12,
+    "spec": [
+      51,
+      55,
+      58,
+      65,
+      90,
+      92
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-023",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Industri Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.10877,
+      112.4042
+    ],
+    "conf": 100.0,
+    "ndvi": 0.08,
+    "ndwi": -0.3,
+    "ndbi": 0.09,
+    "mangrove": 0.17,
+    "evi": 0.07,
+    "bsi": 0.15,
+    "spec": [
+      37,
+      45,
+      60,
+      71,
+      85,
+      74
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-024",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Semen Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.10931,
+      112.40509
+    ],
+    "conf": 100.0,
+    "ndvi": 0.05,
+    "ndwi": -0.14,
+    "ndbi": 0.05,
+    "mangrove": 0.17,
+    "evi": 0.04,
+    "bsi": 0.07,
+    "spec": [
+      38,
+      42,
+      46,
+      50,
+      56,
+      54
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-025",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Industri Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.1185,
+      112.46249
+    ],
+    "conf": 100.0,
+    "ndvi": -0.04,
+    "ndwi": -0.21,
+    "ndbi": 0.25,
+    "mangrove": -0.03,
+    "evi": -0.09,
+    "bsi": 0.14,
+    "spec": [
+      83,
+      83,
+      83,
+      76,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-026",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Manyar (JIIPE)",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.15519,
+      112.63686
+    ],
+    "conf": 100.0,
+    "ndvi": 0.27,
+    "ndwi": -0.53,
+    "ndbi": 0.25,
+    "mangrove": 0.42,
+    "evi": 0.14,
+    "bsi": 0.23,
+    "spec": [
+      16,
+      20,
+      23,
+      41,
+      68,
+      57
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-027",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Perkotaan Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.14322,
+      112.64334
+    ],
+    "conf": 100.0,
+    "ndvi": -0.0,
+    "ndwi": -0.14,
+    "ndbi": -0.01,
+    "mangrove": 0.01,
+    "evi": -0.0,
+    "bsi": 0.13,
+    "spec": [
+      55,
+      79,
+      100,
+      100,
+      100,
+      89
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-028",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Gubeng & Wonokromo",
+    "city": "Surabaya",
+    "coords": [
+      -7.22151,
+      112.66025
+    ],
+    "conf": 100.0,
+    "ndvi": -0.06,
+    "ndwi": 0.13,
+    "ndbi": -0.06,
+    "mangrove": -0.1,
+    "evi": -0.14,
+    "bsi": -0.02,
+    "spec": [
+      100,
+      100,
+      100,
+      92,
+      82,
+      87
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-029",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Rungkut",
+    "city": "Surabaya",
+    "coords": [
+      -7.231,
+      112.68546
+    ],
+    "conf": 100.0,
+    "ndvi": 0.08,
+    "ndwi": -0.51,
+    "ndbi": 0.25,
+    "mangrove": 0.17,
+    "evi": 0.03,
+    "bsi": 0.28,
+    "spec": [
+      8,
+      10,
+      17,
+      20,
+      34,
+      33
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-030",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Gubeng & Wonokromo",
+    "city": "Surabaya",
+    "coords": [
+      -7.23788,
+      112.71751
+    ],
+    "conf": 100.0,
+    "ndvi": 0.1,
+    "ndwi": -0.45,
+    "ndbi": 0.27,
+    "mangrove": 0.18,
+    "evi": 0.06,
+    "bsi": 0.24,
+    "spec": [
+      24,
+      28,
+      35,
+      43,
+      74,
+      71
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-031",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pusat Kota Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.23724,
+      112.71818
+    ],
+    "conf": 100.0,
+    "ndvi": -0.0,
+    "ndwi": -0.17,
+    "ndbi": 0.15,
+    "mangrove": -0.02,
+    "evi": -0.0,
+    "bsi": 0.09,
+    "spec": [
+      72,
+      71,
+      75,
+      74,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-032",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pusat Kota Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.23768,
+      112.72249
+    ],
+    "conf": 100.0,
+    "ndvi": 0.12,
+    "ndwi": -0.47,
+    "ndbi": 0.12,
+    "mangrove": 0.18,
+    "evi": 0.07,
+    "bsi": 0.23,
+    "spec": [
+      17,
+      27,
+      47,
+      60,
+      76,
+      68
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-033",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pergudangan Margomulyo",
+    "city": "Surabaya",
+    "coords": [
+      -7.23586,
+      112.73221
+    ],
+    "conf": 100.0,
+    "ndvi": -0.02,
+    "ndwi": -0.24,
+    "ndbi": 0.22,
+    "mangrove": -0.01,
+    "evi": -0.02,
+    "bsi": 0.16,
+    "spec": [
+      66,
+      71,
+      77,
+      74,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-034",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Gubeng & Wonokromo",
+    "city": "Surabaya",
+    "coords": [
+      -7.23532,
+      112.73681
+    ],
+    "conf": 100.0,
+    "ndvi": 0.04,
+    "ndwi": -0.29,
+    "ndbi": 0.12,
+    "mangrove": 0.11,
+    "evi": 0.02,
+    "bsi": 0.17,
+    "spec": [
+      21,
+      27,
+      35,
+      38,
+      49,
+      46
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-035",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pergudangan Gedangan",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.44857,
+      112.7119
+    ],
+    "conf": 100.0,
+    "ndvi": 0.1,
+    "ndwi": -0.31,
+    "ndbi": 0.15,
+    "mangrove": 0.19,
+    "evi": 0.05,
+    "bsi": 0.15,
+    "spec": [
+      22,
+      26,
+      30,
+      37,
+      50,
+      48
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-036",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pusat Niaga Krian Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.45147,
+      112.71438
+    ],
+    "conf": 100.0,
+    "ndvi": 0.01,
+    "ndwi": 0.1,
+    "ndbi": -0.07,
+    "mangrove": 0.04,
+    "evi": 0.01,
+    "bsi": -0.06,
+    "spec": [
+      62,
+      60,
+      56,
+      57,
+      49,
+      40
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-037",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Kota Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.46278,
+      112.71442
+    ],
+    "conf": 100.0,
+    "ndvi": 0.03,
+    "ndwi": -0.32,
+    "ndbi": 0.22,
+    "mangrove": 0.07,
+    "evi": 0.02,
+    "bsi": 0.19,
+    "spec": [
+      31,
+      35,
+      41,
+      43,
+      69,
+      69
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-038",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pemukiman Gubeng & Wonokromo",
+    "city": "Surabaya",
+    "coords": [
+      -7.26631,
+      112.74907
+    ],
+    "conf": 100.0,
+    "ndvi": 0.08,
+    "ndwi": -0.18,
+    "ndbi": 0.07,
+    "mangrove": 0.18,
+    "evi": 0.07,
+    "bsi": 0.07,
+    "spec": [
+      34,
+      37,
+      39,
+      46,
+      53,
+      48
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-039",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Tanjung Perak",
+    "city": "Surabaya",
+    "coords": [
+      -7.26535,
+      112.74697
+    ],
+    "conf": 100.0,
+    "ndvi": 0.04,
+    "ndwi": -0.21,
+    "ndbi": 0.13,
+    "mangrove": 0.15,
+    "evi": 0.03,
+    "bsi": 0.1,
+    "spec": [
+      28,
+      29,
+      31,
+      34,
+      45,
+      43
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-040",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Tanjung Perak",
+    "city": "Surabaya",
+    "coords": [
+      -7.32032,
+      112.71815
+    ],
+    "conf": 99.0,
+    "ndvi": 0.18,
+    "ndwi": -0.55,
+    "ndbi": 0.06,
+    "mangrove": 0.28,
+    "evi": 0.09,
+    "bsi": 0.2,
+    "spec": [
+      10,
+      15,
+      33,
+      48,
+      54,
+      43
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-041",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pusat Kota Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.34468,
+      112.79575
+    ],
+    "conf": 100.0,
+    "ndvi": 0.06,
+    "ndwi": -0.25,
+    "ndbi": 0.17,
+    "mangrove": 0.08,
+    "evi": 0.05,
+    "bsi": 0.13,
+    "spec": [
+      41,
+      44,
+      47,
+      52,
+      73,
+      76
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-042",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Pelabuhan Tanjung Perak",
+    "city": "Surabaya",
+    "coords": [
+      -7.28494,
+      112.79419
+    ],
+    "conf": 100.0,
+    "ndvi": 0.08,
+    "ndwi": -0.11,
+    "ndbi": -0.0,
+    "mangrove": 0.15,
+    "evi": 0.11,
+    "bsi": 0.03,
+    "spec": [
+      63,
+      68,
+      72,
+      85,
+      85,
+      77
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-043",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Rungkut",
+    "city": "Surabaya",
+    "coords": [
+      -7.26792,
+      112.78493
+    ],
+    "conf": 100.0,
+    "ndvi": 0.12,
+    "ndwi": -0.55,
+    "ndbi": 0.12,
+    "mangrove": 0.17,
+    "evi": 0.07,
+    "bsi": 0.26,
+    "spec": [
+      14,
+      26,
+      56,
+      71,
+      90,
+      80
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-044",
+    "class": "built",
+    "class_id": 0,
+    "name": "Kawasan Industri Rungkut",
+    "city": "Surabaya",
+    "coords": [
+      -7.26668,
+      112.78474
+    ],
+    "conf": 100.0,
+    "ndvi": 0.03,
+    "ndwi": -0.18,
+    "ndbi": 0.11,
+    "mangrove": 0.09,
+    "evi": 0.02,
+    "bsi": 0.1,
+    "spec": [
+      37,
+      40,
+      43,
+      46,
+      57,
+      51
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-045",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pergudangan Margomulyo",
+    "city": "Surabaya",
+    "coords": [
+      -7.10664,
+      112.79893
+    ],
+    "conf": 100.0,
+    "ndvi": -0.05,
+    "ndwi": -0.08,
+    "ndbi": 0.13,
+    "mangrove": -0.1,
+    "evi": -0.3,
+    "bsi": 0.06,
+    "spec": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-046",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pergudangan Margomulyo",
+    "city": "Surabaya",
+    "coords": [
+      -7.10568,
+      112.80283
+    ],
+    "conf": 100.0,
+    "ndvi": 0.13,
+    "ndwi": -0.52,
+    "ndbi": 0.14,
+    "mangrove": 0.27,
+    "evi": 0.07,
+    "bsi": 0.25,
+    "spec": [
+      13,
+      22,
+      41,
+      54,
+      72,
+      58
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-BUI-047",
+    "class": "built",
+    "class_id": 0,
+    "name": "Pergudangan Margomulyo",
+    "city": "Surabaya",
+    "coords": [
+      -7.10507,
+      112.80181
+    ],
+    "conf": 83.5,
+    "ndvi": 0.32,
+    "ndwi": -0.47,
+    "ndbi": 0.07,
+    "mangrove": 0.54,
+    "evi": 0.2,
+    "bsi": 0.13,
+    "spec": [
+      17,
+      25,
+      32,
+      62,
+      71,
+      55
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-048",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Kawasan Hutan Pegunungan Kawi",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.8293,
+      111.76731
+    ],
+    "conf": 90.6,
+    "ndvi": 0.8,
+    "ndwi": -0.52,
+    "ndbi": -0.31,
+    "mangrove": 1.75,
+    "evi": 0.56,
+    "bsi": -0.27,
+    "spec": [
+      8,
+      13,
+      9,
+      81,
+      43,
+      20
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-049",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Hujan Lereng Welirang",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.82844,
+      111.77187
+    ],
+    "conf": 83.8,
+    "ndvi": 0.67,
+    "ndwi": -0.48,
+    "ndbi": -0.19,
+    "mangrove": 1.24,
+    "evi": 0.39,
+    "bsi": -0.14,
+    "spec": [
+      9,
+      14,
+      11,
+      59,
+      40,
+      23
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-050",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Pinus Coban Rondo Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.83071,
+      111.77113
+    ],
+    "conf": 85.1,
+    "ndvi": 0.71,
+    "ndwi": -0.48,
+    "ndbi": -0.23,
+    "mangrove": 1.42,
+    "evi": 0.46,
+    "bsi": -0.18,
+    "spec": [
+      9,
+      15,
+      11,
+      71,
+      44,
+      22
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-051",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Kawasan Hutan Pegunungan Kawi",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.83512,
+      111.76878
+    ],
+    "conf": 99.9,
+    "ndvi": 0.79,
+    "ndwi": -0.51,
+    "ndbi": -0.31,
+    "mangrove": 1.8,
+    "evi": 0.5,
+    "bsi": -0.27,
+    "spec": [
+      7,
+      12,
+      8,
+      71,
+      37,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-052",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.83586,
+      111.77368
+    ],
+    "conf": 98.9,
+    "ndvi": 0.75,
+    "ndwi": -0.48,
+    "ndbi": -0.27,
+    "mangrove": 1.58,
+    "evi": 0.52,
+    "bsi": -0.22,
+    "spec": [
+      9,
+      15,
+      11,
+      77,
+      44,
+      23
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-053",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.83712,
+      111.77967
+    ],
+    "conf": 100.0,
+    "ndvi": 0.78,
+    "ndwi": -0.51,
+    "ndbi": -0.3,
+    "mangrove": 1.74,
+    "evi": 0.45,
+    "bsi": -0.26,
+    "spec": [
+      6,
+      10,
+      7,
+      62,
+      33,
+      16
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-054",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.83796,
+      111.78841
+    ],
+    "conf": 81.4,
+    "ndvi": 0.62,
+    "ndwi": -0.33,
+    "ndbi": -0.26,
+    "mangrove": 1.34,
+    "evi": 0.37,
+    "bsi": -0.21,
+    "spec": [
+      13,
+      15,
+      12,
+      54,
+      31,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-055",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Lindung Lereng Gunung Arjuno",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.8404,
+      111.7936
+    ],
+    "conf": 99.8,
+    "ndvi": 0.41,
+    "ndwi": -0.17,
+    "ndbi": -0.21,
+    "mangrove": 0.88,
+    "evi": 0.41,
+    "bsi": -0.15,
+    "spec": [
+      33,
+      34,
+      31,
+      73,
+      47,
+      29
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-056",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Pinus Coban Rondo Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.8462,
+      111.8118
+    ],
+    "conf": 95.7,
+    "ndvi": 0.56,
+    "ndwi": -0.31,
+    "ndbi": -0.23,
+    "mangrove": 1.26,
+    "evi": 0.51,
+    "bsi": -0.17,
+    "spec": [
+      23,
+      27,
+      23,
+      85,
+      53,
+      37
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-057",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Pinus Coban Rondo Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -7.92404,
+      112.44063
+    ],
+    "conf": 96.5,
+    "ndvi": 0.76,
+    "ndwi": -0.38,
+    "ndbi": -0.32,
+    "mangrove": 1.86,
+    "evi": 0.45,
+    "bsi": -0.29,
+    "spec": [
+      10,
+      13,
+      7,
+      57,
+      29,
+      14
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-058",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Zona Konservasi Vegetasi Delta Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.68025,
+      112.67428
+    ],
+    "conf": 100.0,
+    "ndvi": 0.76,
+    "ndwi": -0.61,
+    "ndbi": -0.14,
+    "mangrove": 1.26,
+    "evi": 0.45,
+    "bsi": -0.1,
+    "spec": [
+      6,
+      12,
+      9,
+      69,
+      51,
+      28
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-059",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Kanopi Pohon Rindang Krian",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.67889,
+      112.67517
+    ],
+    "conf": 100.0,
+    "ndvi": 0.75,
+    "ndwi": -0.62,
+    "ndbi": -0.16,
+    "mangrove": 1.31,
+    "evi": 0.41,
+    "bsi": -0.11,
+    "spec": [
+      5,
+      10,
+      9,
+      62,
+      45,
+      24
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-060",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Zona Konservasi Vegetasi Delta Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.67866,
+      112.67912
+    ],
+    "conf": 98.8,
+    "ndvi": 0.52,
+    "ndwi": -0.44,
+    "ndbi": -0.17,
+    "mangrove": 1.05,
+    "evi": 0.3,
+    "bsi": -0.06,
+    "spec": [
+      10,
+      17,
+      20,
+      63,
+      45,
+      30
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-061",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Kanopi Pohon Rindang Krian",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.67834,
+      112.6807
+    ],
+    "conf": 100.0,
+    "ndvi": 0.79,
+    "ndwi": -0.59,
+    "ndbi": -0.26,
+    "mangrove": 1.56,
+    "evi": 0.52,
+    "bsi": -0.2,
+    "spec": [
+      5,
+      12,
+      10,
+      84,
+      49,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-062",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Zona Konservasi Vegetasi Delta Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.54587,
+      112.77167
+    ],
+    "conf": 92.2,
+    "ndvi": 0.6,
+    "ndwi": -0.35,
+    "ndbi": -0.26,
+    "mangrove": 1.11,
+    "evi": 0.43,
+    "bsi": -0.16,
+    "spec": [
+      13,
+      23,
+      20,
+      81,
+      48,
+      30
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-063",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Zona Konservasi Vegetasi Delta Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.6317,
+      112.90213
+    ],
+    "conf": 99.4,
+    "ndvi": 0.48,
+    "ndwi": -0.54,
+    "ndbi": 0.01,
+    "mangrove": 0.76,
+    "evi": 0.36,
+    "bsi": 0.06,
+    "spec": [
+      17,
+      25,
+      29,
+      84,
+      85,
+      59
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-064",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Kanopi Pohon Rindang Krian",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.63149,
+      112.9026
+    ],
+    "conf": 99.9,
+    "ndvi": 0.4,
+    "ndwi": -0.47,
+    "ndbi": -0.0,
+    "mangrove": 0.68,
+    "evi": 0.3,
+    "bsi": 0.06,
+    "spec": [
+      19,
+      28,
+      34,
+      79,
+      79,
+      58
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-065",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Kota Balas Klumprik",
+    "city": "Surabaya",
+    "coords": [
+      -7.10672,
+      113.17222
+    ],
+    "conf": 96.9,
+    "ndvi": 0.45,
+    "ndwi": -0.16,
+    "ndbi": -0.22,
+    "mangrove": 1.01,
+    "evi": 0.45,
+    "bsi": -0.18,
+    "spec": [
+      31,
+      31,
+      25,
+      67,
+      43,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-066",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Kota Pakal Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.10509,
+      113.17437
+    ],
+    "conf": 77.3,
+    "ndvi": 0.42,
+    "ndwi": -0.25,
+    "ndbi": -0.13,
+    "mangrove": 0.85,
+    "evi": 0.48,
+    "bsi": -0.1,
+    "spec": [
+      37,
+      38,
+      34,
+      84,
+      64,
+      38
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-067",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Kota Balas Klumprik",
+    "city": "Surabaya",
+    "coords": [
+      -7.10461,
+      113.17836
+    ],
+    "conf": 98.0,
+    "ndvi": 0.61,
+    "ndwi": -0.33,
+    "ndbi": -0.23,
+    "mangrove": 1.33,
+    "evi": 0.39,
+    "bsi": -0.19,
+    "spec": [
+      16,
+      17,
+      13,
+      55,
+      34,
+      18
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-068",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Kota Balas Klumprik",
+    "city": "Surabaya",
+    "coords": [
+      -7.08604,
+      113.15626
+    ],
+    "conf": 99.0,
+    "ndvi": 0.42,
+    "ndwi": -0.01,
+    "ndbi": -0.29,
+    "mangrove": 1.07,
+    "evi": 0.36,
+    "bsi": -0.25,
+    "spec": [
+      28,
+      26,
+      19,
+      48,
+      26,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-069",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Zona Hijau Bukit Surowiti",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.08676,
+      112.28968
+    ],
+    "conf": 99.9,
+    "ndvi": 0.66,
+    "ndwi": -0.56,
+    "ndbi": -0.1,
+    "mangrove": 1.07,
+    "evi": 0.44,
+    "bsi": -0.06,
+    "spec": [
+      10,
+      17,
+      15,
+      75,
+      60,
+      40
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-070",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Lindung Panceng Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.08565,
+      112.28956
+    ],
+    "conf": 99.8,
+    "ndvi": 0.67,
+    "ndwi": -0.55,
+    "ndbi": -0.12,
+    "mangrove": 1.12,
+    "evi": 0.43,
+    "bsi": -0.07,
+    "spec": [
+      9,
+      16,
+      14,
+      73,
+      57,
+      36
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-071",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Lindung Panceng Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.08292,
+      112.29091
+    ],
+    "conf": 100.0,
+    "ndvi": 0.73,
+    "ndwi": -0.63,
+    "ndbi": -0.11,
+    "mangrove": 1.13,
+    "evi": 0.46,
+    "bsi": -0.06,
+    "spec": [
+      6,
+      13,
+      11,
+      75,
+      60,
+      37
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-072",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Lindung Panceng Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.0834,
+      112.29189
+    ],
+    "conf": 100.0,
+    "ndvi": 0.7,
+    "ndwi": -0.61,
+    "ndbi": -0.11,
+    "mangrove": 1.13,
+    "evi": 0.42,
+    "bsi": -0.06,
+    "spec": [
+      6,
+      13,
+      12,
+      71,
+      57,
+      35
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-073",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Jati Pegunungan Kapur Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.82338,
+      111.89087
+    ],
+    "conf": 100.0,
+    "ndvi": 0.6,
+    "ndwi": -0.6,
+    "ndbi": -0.04,
+    "mangrove": 0.83,
+    "evi": 0.34,
+    "bsi": 0.02,
+    "spec": [
+      8,
+      14,
+      15,
+      61,
+      57,
+      38
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-074",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Lindung Lereng Gunung Arjuno",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.12038,
+      111.58784
+    ],
+    "conf": 100.0,
+    "ndvi": 0.76,
+    "ndwi": -0.57,
+    "ndbi": -0.2,
+    "mangrove": 1.41,
+    "evi": 0.43,
+    "bsi": -0.15,
+    "spec": [
+      6,
+      11,
+      8,
+      63,
+      42,
+      21
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-075",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Pinus Coban Rondo Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.11765,
+      111.59187
+    ],
+    "conf": 100.0,
+    "ndvi": 0.79,
+    "ndwi": -0.61,
+    "ndbi": -0.23,
+    "mangrove": 1.51,
+    "evi": 0.48,
+    "bsi": -0.18,
+    "spec": [
+      5,
+      10,
+      8,
+      72,
+      45,
+      23
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-076",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.11105,
+      111.59477
+    ],
+    "conf": 100.0,
+    "ndvi": 0.85,
+    "ndwi": -0.62,
+    "ndbi": -0.3,
+    "mangrove": 2.13,
+    "evi": 0.28,
+    "bsi": -0.26,
+    "spec": [
+      5,
+      5,
+      5,
+      35,
+      18,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-077",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.10926,
+      111.59365
+    ],
+    "conf": 100.0,
+    "ndvi": 0.85,
+    "ndwi": -0.65,
+    "ndbi": -0.26,
+    "mangrove": 1.66,
+    "evi": 0.54,
+    "bsi": -0.22,
+    "spec": [
+      5,
+      9,
+      6,
+      78,
+      46,
+      22
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-078",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.10723,
+      111.5945
+    ],
+    "conf": 100.0,
+    "ndvi": 0.73,
+    "ndwi": -0.62,
+    "ndbi": -0.14,
+    "mangrove": 1.28,
+    "evi": 0.44,
+    "bsi": -0.09,
+    "spec": [
+      7,
+      11,
+      10,
+      68,
+      51,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-079",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Taman Hutan Raya Raden Soerjo",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.10176,
+      111.5948
+    ],
+    "conf": 99.9,
+    "ndvi": 0.81,
+    "ndwi": -0.47,
+    "ndbi": -0.34,
+    "mangrove": 1.95,
+    "evi": 0.48,
+    "bsi": -0.29,
+    "spec": [
+      6,
+      11,
+      6,
+      66,
+      32,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-080",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Kawasan Hutan Pegunungan Kawi",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.09876,
+      111.59437
+    ],
+    "conf": 99.9,
+    "ndvi": 0.79,
+    "ndwi": -0.49,
+    "ndbi": -0.24,
+    "mangrove": 1.55,
+    "evi": 0.38,
+    "bsi": -0.2,
+    "spec": [
+      5,
+      10,
+      6,
+      51,
+      31,
+      16
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-081",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Lindung Lereng Gunung Arjuno",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.094,
+      111.59546
+    ],
+    "conf": 99.7,
+    "ndvi": 0.77,
+    "ndwi": -0.49,
+    "ndbi": -0.27,
+    "mangrove": 1.6,
+    "evi": 0.43,
+    "bsi": -0.22,
+    "spec": [
+      6,
+      11,
+      7,
+      60,
+      34,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FOR-082",
+    "class": "forest",
+    "class_id": 3,
+    "name": "Hutan Hujan Lereng Welirang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.09084,
+      111.59543
+    ],
+    "conf": 99.8,
+    "ndvi": 0.75,
+    "ndwi": -0.52,
+    "ndbi": -0.23,
+    "mangrove": 1.5,
+    "evi": 0.38,
+    "bsi": -0.17,
+    "spec": [
+      5,
+      10,
+      8,
+      55,
+      34,
+      19
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-083",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.33315,
+      112.83119
+    ],
+    "conf": 100.0,
+    "ndvi": 0.78,
+    "ndwi": -0.38,
+    "ndbi": -0.35,
+    "mangrove": 1.94,
+    "evi": 0.54,
+    "bsi": -0.3,
+    "spec": [
+      9,
+      16,
+      9,
+      76,
+      36,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-084",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Mangrove Gunung Anyar Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.33551,
+      112.82934
+    ],
+    "conf": 100.0,
+    "ndvi": 0.77,
+    "ndwi": -0.38,
+    "ndbi": -0.34,
+    "mangrove": 1.89,
+    "evi": 0.53,
+    "bsi": -0.29,
+    "spec": [
+      9,
+      16,
+      9,
+      75,
+      37,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-085",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.33746,
+      112.8281
+    ],
+    "conf": 100.0,
+    "ndvi": 0.77,
+    "ndwi": -0.35,
+    "ndbi": -0.36,
+    "mangrove": 1.96,
+    "evi": 0.55,
+    "bsi": -0.31,
+    "spec": [
+      10,
+      17,
+      10,
+      79,
+      36,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-086",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.34096,
+      112.82953
+    ],
+    "conf": 99.8,
+    "ndvi": 0.69,
+    "ndwi": -0.32,
+    "ndbi": -0.32,
+    "mangrove": 1.66,
+    "evi": 0.44,
+    "bsi": -0.25,
+    "spec": [
+      11,
+      17,
+      11,
+      65,
+      33,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-087",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.34533,
+      112.82613
+    ],
+    "conf": 100.0,
+    "ndvi": 0.76,
+    "ndwi": -0.35,
+    "ndbi": -0.36,
+    "mangrove": 1.94,
+    "evi": 0.52,
+    "bsi": -0.31,
+    "spec": [
+      10,
+      16,
+      10,
+      74,
+      34,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-088",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.35156,
+      112.82815
+    ],
+    "conf": 100.0,
+    "ndvi": 0.71,
+    "ndwi": -0.23,
+    "ndbi": -0.4,
+    "mangrove": 1.9,
+    "evi": 0.45,
+    "bsi": -0.32,
+    "spec": [
+      10,
+      17,
+      10,
+      63,
+      27,
+      12
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-089",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Pesisir Pamurbaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.2722,
+      112.83978
+    ],
+    "conf": 100.0,
+    "ndvi": 0.73,
+    "ndwi": -0.3,
+    "ndbi": -0.36,
+    "mangrove": 1.9,
+    "evi": 0.51,
+    "bsi": -0.29,
+    "spec": [
+      11,
+      18,
+      11,
+      75,
+      35,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-090",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.27025,
+      112.83876
+    ],
+    "conf": 100.0,
+    "ndvi": 0.75,
+    "ndwi": -0.32,
+    "ndbi": -0.36,
+    "mangrove": 1.94,
+    "evi": 0.53,
+    "bsi": -0.3,
+    "spec": [
+      10,
+      18,
+      11,
+      77,
+      36,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-091",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Mangrove Gunung Anyar Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.26819,
+      112.83755
+    ],
+    "conf": 100.0,
+    "ndvi": 0.74,
+    "ndwi": -0.32,
+    "ndbi": -0.35,
+    "mangrove": 1.85,
+    "evi": 0.5,
+    "bsi": -0.29,
+    "spec": [
+      10,
+      18,
+      11,
+      73,
+      35,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-092",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Mangrove Gunung Anyar Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.26213,
+      112.83457
+    ],
+    "conf": 100.0,
+    "ndvi": 0.72,
+    "ndwi": -0.32,
+    "ndbi": -0.34,
+    "mangrove": 1.81,
+    "evi": 0.48,
+    "bsi": -0.28,
+    "spec": [
+      10,
+      17,
+      11,
+      71,
+      34,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-093",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Pesisir Pamurbaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.2597,
+      112.83249
+    ],
+    "conf": 100.0,
+    "ndvi": 0.74,
+    "ndwi": -0.33,
+    "ndbi": -0.36,
+    "mangrove": 1.9,
+    "evi": 0.5,
+    "bsi": -0.29,
+    "spec": [
+      10,
+      17,
+      11,
+      74,
+      35,
+      14
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-094",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Mangrove Gunung Anyar Surabaya",
+    "city": "Surabaya",
+    "coords": [
+      -7.25582,
+      112.82503
+    ],
+    "conf": 100.0,
+    "ndvi": 0.73,
+    "ndwi": -0.36,
+    "ndbi": -0.33,
+    "mangrove": 1.8,
+    "evi": 0.49,
+    "bsi": -0.27,
+    "spec": [
+      10,
+      17,
+      11,
+      71,
+      36,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-095",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Mangrove Wonorejo",
+    "city": "Surabaya",
+    "coords": [
+      -7.2464,
+      112.81622
+    ],
+    "conf": 100.0,
+    "ndvi": 0.84,
+    "ndwi": -0.33,
+    "ndbi": -0.5,
+    "mangrove": 2.83,
+    "evi": 0.71,
+    "bsi": -0.44,
+    "spec": [
+      9,
+      17,
+      9,
+      100,
+      35,
+      13
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-096",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Estuari Sedati",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73561,
+      113.22394
+    ],
+    "conf": 100.0,
+    "ndvi": 0.8,
+    "ndwi": -0.27,
+    "ndbi": -0.44,
+    "mangrove": 2.27,
+    "evi": 0.54,
+    "bsi": -0.38,
+    "spec": [
+      8,
+      17,
+      8,
+      77,
+      30,
+      14
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-097",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Zona Mangrove Pesisir Jabon Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.734,
+      113.22332
+    ],
+    "conf": 100.0,
+    "ndvi": 0.82,
+    "ndwi": -0.31,
+    "ndbi": -0.45,
+    "mangrove": 2.36,
+    "evi": 0.6,
+    "bsi": -0.39,
+    "spec": [
+      8,
+      17,
+      8,
+      89,
+      34,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-098",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73375,
+      113.22411
+    ],
+    "conf": 98.6,
+    "ndvi": 0.72,
+    "ndwi": -0.36,
+    "ndbi": -0.33,
+    "mangrove": 1.61,
+    "evi": 0.5,
+    "bsi": -0.25,
+    "spec": [
+      9,
+      19,
+      12,
+      80,
+      40,
+      23
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-099",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73333,
+      113.22355
+    ],
+    "conf": 100.0,
+    "ndvi": 0.76,
+    "ndwi": -0.35,
+    "ndbi": -0.35,
+    "mangrove": 1.86,
+    "evi": 0.57,
+    "bsi": -0.29,
+    "spec": [
+      10,
+      20,
+      11,
+      87,
+      41,
+      22
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-100",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Estuari Sedati",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73855,
+      113.22701
+    ],
+    "conf": 100.0,
+    "ndvi": 0.77,
+    "ndwi": -0.24,
+    "ndbi": -0.47,
+    "mangrove": 2.27,
+    "evi": 0.42,
+    "bsi": -0.39,
+    "spec": [
+      6,
+      12,
+      7,
+      57,
+      20,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-101",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.7392,
+      113.2286
+    ],
+    "conf": 100.0,
+    "ndvi": 0.88,
+    "ndwi": -0.35,
+    "ndbi": -0.54,
+    "mangrove": 3.14,
+    "evi": 0.56,
+    "bsi": -0.49,
+    "spec": [
+      5,
+      11,
+      5,
+      76,
+      23,
+      9
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-102",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73897,
+      113.23057
+    ],
+    "conf": 100.0,
+    "ndvi": 0.8,
+    "ndwi": -0.25,
+    "ndbi": -0.5,
+    "mangrove": 2.53,
+    "evi": 0.46,
+    "bsi": -0.43,
+    "spec": [
+      6,
+      12,
+      6,
+      63,
+      20,
+      9
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-103",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Estuari Sedati",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73885,
+      113.23255
+    ],
+    "conf": 100.0,
+    "ndvi": 0.87,
+    "ndwi": -0.32,
+    "ndbi": -0.58,
+    "mangrove": 3.5,
+    "evi": 0.53,
+    "bsi": -0.52,
+    "spec": [
+      5,
+      9,
+      5,
+      70,
+      18,
+      7
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-104",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Zona Mangrove Pesisir Jabon Sidoarjo",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73919,
+      113.23348
+    ],
+    "conf": 100.0,
+    "ndvi": 0.77,
+    "ndwi": -0.25,
+    "ndbi": -0.44,
+    "mangrove": 2.33,
+    "evi": 0.46,
+    "bsi": -0.37,
+    "spec": [
+      7,
+      15,
+      8,
+      64,
+      24,
+      11
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-105",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.73802,
+      113.23472
+    ],
+    "conf": 100.0,
+    "ndvi": 0.79,
+    "ndwi": -0.18,
+    "ndbi": -0.55,
+    "mangrove": 2.83,
+    "evi": 0.51,
+    "bsi": -0.46,
+    "spec": [
+      8,
+      14,
+      8,
+      72,
+      21,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-106",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.74259,
+      113.25232
+    ],
+    "conf": 100.0,
+    "ndvi": 0.8,
+    "ndwi": -0.2,
+    "ndbi": -0.56,
+    "mangrove": 3.14,
+    "evi": 0.47,
+    "bsi": -0.47,
+    "spec": [
+      6,
+      12,
+      7,
+      64,
+      18,
+      8
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-107",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Estuari Sedati",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.74198,
+      113.25443
+    ],
+    "conf": 99.3,
+    "ndvi": 0.79,
+    "ndwi": -0.46,
+    "ndbi": -0.37,
+    "mangrove": 1.85,
+    "evi": 0.55,
+    "bsi": -0.31,
+    "spec": [
+      8,
+      13,
+      9,
+      82,
+      37,
+      20
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-108",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Hutan Mangrove Bedul Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.6037,
+      114.26645
+    ],
+    "conf": 80.8,
+    "ndvi": 0.81,
+    "ndwi": -0.49,
+    "ndbi": -0.33,
+    "mangrove": 1.91,
+    "evi": 0.57,
+    "bsi": -0.29,
+    "spec": [
+      9,
+      13,
+      8,
+      80,
+      40,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-109",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Zona Mangrove Teluk Bama",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.60049,
+      114.25643
+    ],
+    "conf": 96.8,
+    "ndvi": 0.75,
+    "ndwi": -0.52,
+    "ndbi": -0.24,
+    "mangrove": 1.55,
+    "evi": 0.49,
+    "bsi": -0.2,
+    "spec": [
+      9,
+      13,
+      9,
+      71,
+      43,
+      20
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-110",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Hutan Mangrove Bedul Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.5852,
+      114.25026
+    ],
+    "conf": 100.0,
+    "ndvi": 0.82,
+    "ndwi": -0.2,
+    "ndbi": -0.58,
+    "mangrove": 3.56,
+    "evi": 0.45,
+    "bsi": -0.51,
+    "spec": [
+      7,
+      10,
+      5,
+      57,
+      15,
+      6
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-111",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Hutan Mangrove Bedul Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.58519,
+      114.25296
+    ],
+    "conf": 100.0,
+    "ndvi": 0.85,
+    "ndwi": -0.25,
+    "ndbi": -0.61,
+    "mangrove": 4.05,
+    "evi": 0.6,
+    "bsi": -0.55,
+    "spec": [
+      7,
+      11,
+      6,
+      82,
+      19,
+      7
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-112",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Bakau Pesisir Teluk Pangpang",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.58724,
+      114.25788
+    ],
+    "conf": 100.0,
+    "ndvi": 0.82,
+    "ndwi": -0.23,
+    "ndbi": -0.58,
+    "mangrove": 3.54,
+    "evi": 0.54,
+    "bsi": -0.51,
+    "spec": [
+      8,
+      12,
+      7,
+      72,
+      19,
+      8
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-113",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Ekowisata Hutan Mangrove Bedul Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.59066,
+      114.26447
+    ],
+    "conf": 100.0,
+    "ndvi": 0.78,
+    "ndwi": -0.12,
+    "ndbi": -0.57,
+    "mangrove": 3.59,
+    "evi": 0.28,
+    "bsi": -0.49,
+    "spec": [
+      5,
+      7,
+      5,
+      34,
+      9,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-114",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Bakau Pesisir Teluk Pangpang",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.74954,
+      114.42122
+    ],
+    "conf": 70.5,
+    "ndvi": 0.63,
+    "ndwi": -0.36,
+    "ndbi": -0.24,
+    "mangrove": 1.45,
+    "evi": 0.55,
+    "bsi": -0.18,
+    "spec": [
+      19,
+      26,
+      20,
+      91,
+      55,
+      29
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-115",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Zona Mangrove Teluk Bama",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.75034,
+      114.42426
+    ],
+    "conf": 99.5,
+    "ndvi": 0.72,
+    "ndwi": -0.39,
+    "ndbi": -0.3,
+    "mangrove": 1.76,
+    "evi": 0.59,
+    "bsi": -0.26,
+    "spec": [
+      14,
+      20,
+      14,
+      87,
+      46,
+      23
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-116",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Mangrove Pesisir Pantai Malang Selatan",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43635,
+      112.67999
+    ],
+    "conf": 49.6,
+    "ndvi": 0.49,
+    "ndwi": -0.38,
+    "ndbi": -0.13,
+    "mangrove": 0.99,
+    "evi": 0.32,
+    "bsi": -0.05,
+    "spec": [
+      14,
+      22,
+      21,
+      64,
+      49,
+      30
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-117",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Estuari Bakau Sendang Biru Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43739,
+      112.67909
+    ],
+    "conf": 54.1,
+    "ndvi": 0.58,
+    "ndwi": -0.44,
+    "ndbi": -0.15,
+    "mangrove": 1.14,
+    "evi": 0.36,
+    "bsi": -0.09,
+    "spec": [
+      11,
+      18,
+      17,
+      64,
+      47,
+      30
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-118",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Estuari Bakau Sendang Biru Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.44036,
+      112.68193
+    ],
+    "conf": 73.7,
+    "ndvi": 0.69,
+    "ndwi": -0.44,
+    "ndbi": -0.23,
+    "mangrove": 1.5,
+    "evi": 0.45,
+    "bsi": -0.17,
+    "spec": [
+      10,
+      17,
+      13,
+      71,
+      44,
+      22
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-119",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Estuari Bakau Sendang Biru Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43905,
+      112.68363
+    ],
+    "conf": 98.8,
+    "ndvi": 0.75,
+    "ndwi": -0.42,
+    "ndbi": -0.3,
+    "mangrove": 1.77,
+    "evi": 0.52,
+    "bsi": -0.24,
+    "spec": [
+      9,
+      16,
+      11,
+      77,
+      41,
+      20
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-120",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Mangrove Pesisir Pantai Malang Selatan",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43548,
+      112.68821
+    ],
+    "conf": 99.5,
+    "ndvi": 0.74,
+    "ndwi": -0.45,
+    "ndbi": -0.26,
+    "mangrove": 1.63,
+    "evi": 0.5,
+    "bsi": -0.21,
+    "spec": [
+      9,
+      16,
+      11,
+      76,
+      44,
+      21
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-121",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Mangrove Pesisir Pantai Malang Selatan",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43133,
+      112.69252
+    ],
+    "conf": 98.7,
+    "ndvi": 0.77,
+    "ndwi": -0.51,
+    "ndbi": -0.25,
+    "mangrove": 1.68,
+    "evi": 0.53,
+    "bsi": -0.2,
+    "spec": [
+      9,
+      15,
+      10,
+      78,
+      47,
+      23
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-122",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Sabuk Hijau Bakau Muara Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.43498,
+      112.8367
+    ],
+    "conf": 100.0,
+    "ndvi": 0.76,
+    "ndwi": -0.33,
+    "ndbi": -0.41,
+    "mangrove": 2.23,
+    "evi": 0.56,
+    "bsi": -0.34,
+    "spec": [
+      10,
+      17,
+      11,
+      84,
+      35,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-123",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Hutan Bakau Estuari Sedati",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.43882,
+      112.83671
+    ],
+    "conf": 100.0,
+    "ndvi": 0.77,
+    "ndwi": -0.36,
+    "ndbi": -0.39,
+    "mangrove": 2.15,
+    "evi": 0.55,
+    "bsi": -0.33,
+    "spec": [
+      9,
+      16,
+      10,
+      81,
+      35,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-MAN-124",
+    "class": "mangrove",
+    "class_id": 4,
+    "name": "Mangrove Pesisir Manyar Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.87372,
+      112.223
+    ],
+    "conf": 100.0,
+    "ndvi": 0.77,
+    "ndwi": -0.33,
+    "ndbi": -0.44,
+    "mangrove": 2.37,
+    "evi": 0.33,
+    "bsi": -0.37,
+    "spec": [
+      5,
+      8,
+      5,
+      44,
+      17,
+      8
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-125",
+    "class": "water",
+    "class_id": 2,
+    "name": "Muara Sungai Bengawan Solo",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.7235,
+      112.14793
+    ],
+    "conf": 100.0,
+    "ndvi": -0.02,
+    "ndwi": -0.02,
+    "ndbi": 0.08,
+    "mangrove": 0.07,
+    "evi": -0.01,
+    "bsi": 0.02,
+    "spec": [
+      26,
+      26,
+      24,
+      23,
+      27,
+      25
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-126",
+    "class": "water",
+    "class_id": 2,
+    "name": "Tambak Garam Manyar",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.85831,
+      112.60141
+    ],
+    "conf": 95.0,
+    "ndvi": -0.18,
+    "ndwi": 0.21,
+    "ndbi": 0.02,
+    "mangrove": -0.31,
+    "evi": -0.17,
+    "bsi": 0.04,
+    "spec": [
+      48,
+      59,
+      53,
+      37,
+      38,
+      35
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-127",
+    "class": "water",
+    "class_id": 2,
+    "name": "Tambak Garam Manyar",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.84156,
+      112.33388
+    ],
+    "conf": 100.0,
+    "ndvi": -0.02,
+    "ndwi": 0.04,
+    "ndbi": 0.04,
+    "mangrove": -0.02,
+    "evi": -0.01,
+    "bsi": 0.01,
+    "spec": [
+      29,
+      32,
+      28,
+      27,
+      29,
+      25
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-128",
+    "class": "water",
+    "class_id": 2,
+    "name": "Estuari Kali Mas",
+    "city": "Surabaya",
+    "coords": [
+      -6.86001,
+      112.92768
+    ],
+    "conf": 100.0,
+    "ndvi": -0.16,
+    "ndwi": 0.59,
+    "ndbi": -0.16,
+    "mangrove": -0.48,
+    "evi": -0.03,
+    "bsi": -0.36,
+    "spec": [
+      17,
+      13,
+      6,
+      5,
+      5,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-129",
+    "class": "water",
+    "class_id": 2,
+    "name": "Muara Kali Jagir",
+    "city": "Surabaya",
+    "coords": [
+      -7.12381,
+      112.68506
+    ],
+    "conf": 98.5,
+    "ndvi": -0.23,
+    "ndwi": 0.35,
+    "ndbi": -0.11,
+    "mangrove": -0.85,
+    "evi": -0.23,
+    "bsi": -0.01,
+    "spec": [
+      53,
+      62,
+      59,
+      37,
+      30,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-130",
+    "class": "water",
+    "class_id": 2,
+    "name": "Muara Kali Jagir",
+    "city": "Surabaya",
+    "coords": [
+      -7.19696,
+      112.69437
+    ],
+    "conf": 98.8,
+    "ndvi": -0.21,
+    "ndwi": 0.31,
+    "ndbi": -0.07,
+    "mangrove": -0.69,
+    "evi": -0.23,
+    "bsi": -0.01,
+    "spec": [
+      55,
+      62,
+      57,
+      37,
+      32,
+      29
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-131",
+    "class": "water",
+    "class_id": 2,
+    "name": "Perairan Selat Madura",
+    "city": "Surabaya",
+    "coords": [
+      -7.21314,
+      112.79543
+    ],
+    "conf": 100.0,
+    "ndvi": -0.18,
+    "ndwi": 0.33,
+    "ndbi": -0.08,
+    "mangrove": -0.64,
+    "evi": -0.18,
+    "bsi": -0.03,
+    "spec": [
+      49,
+      57,
+      49,
+      34,
+      29,
+      25
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-132",
+    "class": "water",
+    "class_id": 2,
+    "name": "Perairan Selat Madura",
+    "city": "Surabaya",
+    "coords": [
+      -7.25587,
+      112.84507
+    ],
+    "conf": 100.0,
+    "ndvi": -0.39,
+    "ndwi": 0.81,
+    "ndbi": -0.56,
+    "mangrove": -5.29,
+    "evi": -0.15,
+    "bsi": -0.11,
+    "spec": [
+      23,
+      28,
+      24,
+      10,
+      5,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-133",
+    "class": "water",
+    "class_id": 2,
+    "name": "Muara Kali Porong",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.59388,
+      112.92154
+    ],
+    "conf": 100.0,
+    "ndvi": -0.34,
+    "ndwi": 0.83,
+    "ndbi": -0.59,
+    "mangrove": -4.62,
+    "evi": -0.06,
+    "bsi": -0.19,
+    "spec": [
+      12,
+      15,
+      11,
+      5,
+      5,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-134",
+    "class": "water",
+    "class_id": 2,
+    "name": "Saluran Primer Delta Brantas",
+    "city": "Sidoarjo",
+    "coords": [
+      -7.67955,
+      113.60366
+    ],
+    "conf": 100.0,
+    "ndvi": -0.16,
+    "ndwi": 0.14,
+    "ndbi": 0.13,
+    "mangrove": -0.23,
+    "evi": -0.02,
+    "bsi": -0.11,
+    "spec": [
+      10,
+      8,
+      6,
+      5,
+      6,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-135",
+    "class": "water",
+    "class_id": 2,
+    "name": "Teluk Grajagan Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -7.86566,
+      114.49515
+    ],
+    "conf": 100.0,
+    "ndvi": -0.0,
+    "ndwi": -0.02,
+    "ndbi": 0.04,
+    "mangrove": 0.05,
+    "evi": -0.0,
+    "bsi": -0.01,
+    "spec": [
+      19,
+      17,
+      17,
+      17,
+      18,
+      16
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-136",
+    "class": "water",
+    "class_id": 2,
+    "name": "Teluk Grajagan Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.1207,
+      114.52812
+    ],
+    "conf": 100.0,
+    "ndvi": -0.01,
+    "ndwi": 0.02,
+    "ndbi": 0.02,
+    "mangrove": 0.0,
+    "evi": -0.01,
+    "bsi": -0.03,
+    "spec": [
+      34,
+      31,
+      30,
+      29,
+      30,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-137",
+    "class": "water",
+    "class_id": 2,
+    "name": "Laguna Pesisir Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.22768,
+      114.44083
+    ],
+    "conf": 100.0,
+    "ndvi": -0.02,
+    "ndwi": 0.12,
+    "ndbi": -0.04,
+    "mangrove": -0.06,
+    "evi": -0.01,
+    "bsi": -0.1,
+    "spec": [
+      17,
+      14,
+      12,
+      12,
+      11,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-138",
+    "class": "water",
+    "class_id": 2,
+    "name": "Laguna Pesisir Banyuwangi",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.37041,
+      113.48827
+    ],
+    "conf": 100.0,
+    "ndvi": 0.13,
+    "ndwi": -0.03,
+    "ndbi": 0.0,
+    "mangrove": 0.48,
+    "evi": 0.03,
+    "bsi": -0.02,
+    "spec": [
+      12,
+      13,
+      11,
+      14,
+      14,
+      9
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-139",
+    "class": "water",
+    "class_id": 2,
+    "name": "Pesisir Pantai Ketapang",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.3705,
+      113.48214
+    ],
+    "conf": 100.0,
+    "ndvi": 0.11,
+    "ndwi": -0.12,
+    "ndbi": 0.08,
+    "mangrove": 0.4,
+    "evi": 0.04,
+    "bsi": 0.03,
+    "spec": [
+      18,
+      19,
+      17,
+      21,
+      25,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-140",
+    "class": "water",
+    "class_id": 2,
+    "name": "Pesisir Pantai Ketapang",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.37059,
+      113.48255
+    ],
+    "conf": 100.0,
+    "ndvi": 0.07,
+    "ndwi": -0.07,
+    "ndbi": 0.06,
+    "mangrove": 0.3,
+    "evi": 0.03,
+    "bsi": 0.01,
+    "spec": [
+      19,
+      20,
+      18,
+      20,
+      23,
+      15
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-141",
+    "class": "water",
+    "class_id": 2,
+    "name": "Pesisir Pantai Ketapang",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.37069,
+      113.48418
+    ],
+    "conf": 100.0,
+    "ndvi": 0.04,
+    "ndwi": -0.0,
+    "ndbi": 0.05,
+    "mangrove": 0.27,
+    "evi": 0.01,
+    "bsi": -0.01,
+    "spec": [
+      15,
+      16,
+      14,
+      15,
+      16,
+      11
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-142",
+    "class": "water",
+    "class_id": 2,
+    "name": "Pesisir Pantai Ketapang",
+    "city": "Banyuwangi",
+    "coords": [
+      -8.37781,
+      113.4756
+    ],
+    "conf": 84.7,
+    "ndvi": 0.14,
+    "ndwi": -0.2,
+    "ndbi": 0.05,
+    "mangrove": 0.35,
+    "evi": 0.08,
+    "bsi": 0.04,
+    "spec": [
+      22,
+      23,
+      23,
+      32,
+      35,
+      25
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-143",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.38056,
+      112.8287
+    ],
+    "conf": 100.0,
+    "ndvi": 0.0,
+    "ndwi": 0.24,
+    "ndbi": -0.11,
+    "mangrove": 0.14,
+    "evi": 0.0,
+    "bsi": -0.12,
+    "spec": [
+      12,
+      12,
+      9,
+      9,
+      7,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-144",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.39453,
+      112.77613
+    ],
+    "conf": 100.0,
+    "ndvi": 0.02,
+    "ndwi": 0.27,
+    "ndbi": -0.11,
+    "mangrove": 0.18,
+    "evi": 0.0,
+    "bsi": -0.15,
+    "spec": [
+      11,
+      11,
+      8,
+      8,
+      6,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-145",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43457,
+      112.68562
+    ],
+    "conf": 100.0,
+    "ndvi": -0.15,
+    "ndwi": 0.27,
+    "ndbi": 0.04,
+    "mangrove": -0.2,
+    "evi": -0.03,
+    "bsi": -0.09,
+    "spec": [
+      13,
+      13,
+      9,
+      7,
+      7,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-146",
+    "class": "water",
+    "class_id": 2,
+    "name": "Sumber Mata Air Wendit Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.43649,
+      112.67757
+    ],
+    "conf": 100.0,
+    "ndvi": 0.12,
+    "ndwi": -0.1,
+    "ndbi": -0.01,
+    "mangrove": 0.46,
+    "evi": 0.04,
+    "bsi": 0.01,
+    "spec": [
+      13,
+      14,
+      14,
+      18,
+      17,
+      12
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-147",
+    "class": "water",
+    "class_id": 2,
+    "name": "Aliran Sungai Brantas Hulu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.44451,
+      112.67302
+    ],
+    "conf": 100.0,
+    "ndvi": -0.17,
+    "ndwi": 0.58,
+    "ndbi": -0.37,
+    "mangrove": -0.86,
+    "evi": -0.22,
+    "bsi": -0.19,
+    "spec": [
+      53,
+      52,
+      43,
+      30,
+      14,
+      8
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-148",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.4456,
+      112.66527
+    ],
+    "conf": 100.0,
+    "ndvi": -0.15,
+    "ndwi": 0.5,
+    "ndbi": -0.25,
+    "mangrove": -0.47,
+    "evi": -0.07,
+    "bsi": -0.19,
+    "spec": [
+      27,
+      26,
+      19,
+      14,
+      8,
+      6
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-149",
+    "class": "water",
+    "class_id": 2,
+    "name": "Aliran Sungai Brantas Hulu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.44535,
+      112.64489
+    ],
+    "conf": 100.0,
+    "ndvi": -0.21,
+    "ndwi": 0.65,
+    "ndbi": -0.41,
+    "mangrove": -1.21,
+    "evi": -0.31,
+    "bsi": -0.21,
+    "spec": [
+      55,
+      55,
+      42,
+      28,
+      11,
+      7
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-150",
+    "class": "water",
+    "class_id": 2,
+    "name": "Perairan Laut Jawa Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.25582,
+      111.45536
+    ],
+    "conf": 100.0,
+    "ndvi": 0.11,
+    "ndwi": -0.13,
+    "ndbi": 0.02,
+    "mangrove": 0.23,
+    "evi": 0.04,
+    "bsi": 0.07,
+    "spec": [
+      12,
+      17,
+      17,
+      21,
+      22,
+      16
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-151",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Bunder Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.91991,
+      112.58207
+    ],
+    "conf": 100.0,
+    "ndvi": -0.09,
+    "ndwi": 0.09,
+    "ndbi": 0.02,
+    "mangrove": -0.04,
+    "evi": -0.06,
+    "bsi": 0.05,
+    "spec": [
+      29,
+      36,
+      35,
+      29,
+      30,
+      27
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-152",
+    "class": "water",
+    "class_id": 2,
+    "name": "Perairan Laut Jawa Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.91477,
+      112.59111
+    ],
+    "conf": 100.0,
+    "ndvi": -0.31,
+    "ndwi": 0.35,
+    "ndbi": 0.08,
+    "mangrove": -0.47,
+    "evi": -0.06,
+    "bsi": 0.09,
+    "spec": [
+      10,
+      16,
+      12,
+      6,
+      7,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-153",
+    "class": "water",
+    "class_id": 2,
+    "name": "Muara Sungai Bengawan Solo",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.89196,
+      112.61049
+    ],
+    "conf": 100.0,
+    "ndvi": -0.12,
+    "ndwi": 0.19,
+    "ndbi": -0.04,
+    "mangrove": -0.03,
+    "evi": -0.06,
+    "bsi": 0.04,
+    "spec": [
+      25,
+      33,
+      30,
+      24,
+      22,
+      18
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-154",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Bunder Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.69,
+      111.36797
+    ],
+    "conf": 100.0,
+    "ndvi": -0.2,
+    "ndwi": 0.59,
+    "ndbi": -0.18,
+    "mangrove": -0.8,
+    "evi": -0.06,
+    "bsi": -0.23,
+    "spec": [
+      21,
+      22,
+      12,
+      8,
+      5,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-155",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Bunder Gresik",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -6.65215,
+      111.45614
+    ],
+    "conf": 100.0,
+    "ndvi": -0.18,
+    "ndwi": 0.5,
+    "ndbi": -0.09,
+    "mangrove": -0.57,
+    "evi": -0.05,
+    "bsi": -0.18,
+    "spec": [
+      18,
+      20,
+      11,
+      8,
+      6,
+      5
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-156",
+    "class": "water",
+    "class_id": 2,
+    "name": "Aliran Sungai Brantas Hulu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.31824,
+      112.12091
+    ],
+    "conf": 100.0,
+    "ndvi": -0.07,
+    "ndwi": 0.13,
+    "ndbi": -0.01,
+    "mangrove": -0.05,
+    "evi": -0.04,
+    "bsi": -0.03,
+    "spec": [
+      31,
+      31,
+      28,
+      24,
+      24,
+      21
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-157",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.31702,
+      112.14282
+    ],
+    "conf": 100.0,
+    "ndvi": -0.06,
+    "ndwi": 0.1,
+    "ndbi": 0.06,
+    "mangrove": 0.0,
+    "evi": -0.04,
+    "bsi": -0.02,
+    "spec": [
+      30,
+      31,
+      25,
+      23,
+      25,
+      22
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-158",
+    "class": "water",
+    "class_id": 2,
+    "name": "Aliran Sungai Brantas Hulu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.26584,
+      111.84324
+    ],
+    "conf": 100.0,
+    "ndvi": -0.04,
+    "ndwi": 0.09,
+    "ndbi": 0.04,
+    "mangrove": 0.03,
+    "evi": -0.02,
+    "bsi": -0.03,
+    "spec": [
+      25,
+      25,
+      20,
+      19,
+      20,
+      18
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-159",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.3493,
+      111.61454
+    ],
+    "conf": 99.4,
+    "ndvi": -0.01,
+    "ndwi": 0.15,
+    "ndbi": -0.1,
+    "mangrove": -0.02,
+    "evi": -0.01,
+    "bsi": -0.09,
+    "spec": [
+      45,
+      41,
+      39,
+      38,
+      31,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-160",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.34189,
+      111.5766
+    ],
+    "conf": 100.0,
+    "ndvi": -0.01,
+    "ndwi": 0.05,
+    "ndbi": -0.01,
+    "mangrove": 0.02,
+    "evi": -0.01,
+    "bsi": -0.04,
+    "spec": [
+      31,
+      29,
+      26,
+      26,
+      25,
+      22
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-161",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.26259,
+      111.30457
+    ],
+    "conf": 100.0,
+    "ndvi": -0.1,
+    "ndwi": 0.2,
+    "ndbi": 0.04,
+    "mangrove": -0.08,
+    "evi": -0.03,
+    "bsi": -0.06,
+    "spec": [
+      19,
+      19,
+      14,
+      12,
+      13,
+      12
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-162",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.26903,
+      111.20185
+    ],
+    "conf": 100.0,
+    "ndvi": -0.1,
+    "ndwi": 0.2,
+    "ndbi": 0.04,
+    "mangrove": -0.19,
+    "evi": -0.03,
+    "bsi": -0.08,
+    "spec": [
+      19,
+      18,
+      13,
+      11,
+      12,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-163",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.27992,
+      111.18904
+    ],
+    "conf": 100.0,
+    "ndvi": -0.12,
+    "ndwi": 0.36,
+    "ndbi": -0.13,
+    "mangrove": -0.35,
+    "evi": -0.06,
+    "bsi": -0.13,
+    "spec": [
+      28,
+      27,
+      21,
+      16,
+      12,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-164",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.27596,
+      111.17699
+    ],
+    "conf": 100.0,
+    "ndvi": -0.14,
+    "ndwi": 0.33,
+    "ndbi": -0.08,
+    "mangrove": -0.38,
+    "evi": -0.06,
+    "bsi": -0.12,
+    "spec": [
+      25,
+      24,
+      19,
+      14,
+      12,
+      9
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-165",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.26707,
+      111.11998
+    ],
+    "conf": 100.0,
+    "ndvi": -0.02,
+    "ndwi": 0.12,
+    "ndbi": -0.01,
+    "mangrove": -0.02,
+    "evi": -0.01,
+    "bsi": -0.07,
+    "spec": [
+      16,
+      15,
+      12,
+      12,
+      12,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-166",
+    "class": "water",
+    "class_id": 2,
+    "name": "Waduk Karangkates Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.23254,
+      111.09286
+    ],
+    "conf": 100.0,
+    "ndvi": -0.13,
+    "ndwi": 0.4,
+    "ndbi": -0.06,
+    "mangrove": -0.34,
+    "evi": -0.04,
+    "bsi": -0.15,
+    "spec": [
+      19,
+      20,
+      13,
+      10,
+      8,
+      7
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-WAT-167",
+    "class": "water",
+    "class_id": 2,
+    "name": "Bendungan Selorejo Ngantang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.21929,
+      111.1056
+    ],
+    "conf": 100.0,
+    "ndvi": -0.0,
+    "ndwi": 0.09,
+    "ndbi": 0.02,
+    "mangrove": 0.06,
+    "evi": -0.0,
+    "bsi": 0.05,
+    "spec": [
+      20,
+      29,
+      23,
+      23,
+      24,
+      16
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-168",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59622,
+      111.86347
+    ],
+    "conf": 100.0,
+    "ndvi": 0.23,
+    "ndwi": -0.43,
+    "ndbi": 0.16,
+    "mangrove": 0.34,
+    "evi": 0.1,
+    "bsi": 0.15,
+    "spec": [
+      14,
+      17,
+      19,
+      31,
+      42,
+      32
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-169",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59658,
+      111.86333
+    ],
+    "conf": 100.0,
+    "ndvi": 0.27,
+    "ndwi": -0.42,
+    "ndbi": 0.12,
+    "mangrove": 0.4,
+    "evi": 0.13,
+    "bsi": 0.12,
+    "spec": [
+      14,
+      17,
+      19,
+      33,
+      42,
+      32
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-170",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59627,
+      111.86592
+    ],
+    "conf": 91.0,
+    "ndvi": 0.49,
+    "ndwi": -0.45,
+    "ndbi": -0.03,
+    "mangrove": 0.86,
+    "evi": 0.3,
+    "bsi": 0.01,
+    "spec": [
+      15,
+      20,
+      19,
+      57,
+      53,
+      34
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-171",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Pertanian Palawija Gresik Selatan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.59531,
+      111.86743
+    ],
+    "conf": 100.0,
+    "ndvi": 0.54,
+    "ndwi": -0.48,
+    "ndbi": -0.09,
+    "mangrove": 0.94,
+    "evi": 0.39,
+    "bsi": -0.03,
+    "spec": [
+      15,
+      22,
+      23,
+      78,
+      65,
+      39
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-172",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.12463,
+      112.41037
+    ],
+    "conf": 100.0,
+    "ndvi": 0.21,
+    "ndwi": -0.52,
+    "ndbi": 0.19,
+    "mangrove": 0.31,
+    "evi": 0.14,
+    "bsi": 0.22,
+    "spec": [
+      22,
+      29,
+      41,
+      63,
+      93,
+      65
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-173",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.12784,
+      112.40984
+    ],
+    "conf": 99.9,
+    "ndvi": 0.23,
+    "ndwi": -0.44,
+    "ndbi": 0.12,
+    "mangrove": 0.37,
+    "evi": 0.17,
+    "bsi": 0.16,
+    "spec": [
+      28,
+      36,
+      47,
+      74,
+      94,
+      68
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-174",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Pertanian Palawija Gresik Selatan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.12914,
+      112.4092
+    ],
+    "conf": 100.0,
+    "ndvi": 0.06,
+    "ndwi": -0.28,
+    "ndbi": 0.1,
+    "mangrove": 0.11,
+    "evi": 0.06,
+    "bsi": 0.19,
+    "spec": [
+      58,
+      96,
+      100,
+      100,
+      100,
+      100
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-175",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.13153,
+      112.41003
+    ],
+    "conf": 100.0,
+    "ndvi": 0.15,
+    "ndwi": -0.44,
+    "ndbi": 0.15,
+    "mangrove": 0.25,
+    "evi": 0.12,
+    "bsi": 0.2,
+    "spec": [
+      34,
+      44,
+      61,
+      83,
+      100,
+      82
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-176",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.13141,
+      112.40751
+    ],
+    "conf": 100.0,
+    "ndvi": 0.17,
+    "ndwi": -0.48,
+    "ndbi": 0.18,
+    "mangrove": 0.27,
+    "evi": 0.12,
+    "bsi": 0.22,
+    "spec": [
+      25,
+      33,
+      47,
+      67,
+      96,
+      68
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-177",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.17891,
+      111.88053
+    ],
+    "conf": 100.0,
+    "ndvi": 0.59,
+    "ndwi": -0.43,
+    "ndbi": -0.13,
+    "mangrove": 1.04,
+    "evi": 0.44,
+    "bsi": -0.06,
+    "spec": [
+      14,
+      26,
+      22,
+      86,
+      66,
+      37
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-178",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.17992,
+      111.88263
+    ],
+    "conf": 100.0,
+    "ndvi": 0.43,
+    "ndwi": -0.48,
+    "ndbi": 0.01,
+    "mangrove": 0.65,
+    "evi": 0.3,
+    "bsi": 0.06,
+    "spec": [
+      17,
+      25,
+      28,
+      70,
+      71,
+      48
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-179",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Pertanian Palawija Gresik Selatan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.18026,
+      111.88774
+    ],
+    "conf": 100.0,
+    "ndvi": 0.54,
+    "ndwi": -0.43,
+    "ndbi": -0.09,
+    "mangrove": 0.9,
+    "evi": 0.39,
+    "bsi": -0.03,
+    "spec": [
+      15,
+      25,
+      22,
+      76,
+      63,
+      38
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-180",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Pertanian Palawija Gresik Selatan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.17907,
+      111.89269
+    ],
+    "conf": 99.7,
+    "ndvi": 0.59,
+    "ndwi": -0.37,
+    "ndbi": -0.18,
+    "mangrove": 1.11,
+    "evi": 0.31,
+    "bsi": -0.11,
+    "spec": [
+      10,
+      16,
+      13,
+      51,
+      35,
+      18
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-181",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.17656,
+      111.89325
+    ],
+    "conf": 100.0,
+    "ndvi": 0.33,
+    "ndwi": -0.47,
+    "ndbi": 0.07,
+    "mangrove": 0.49,
+    "evi": 0.21,
+    "bsi": 0.12,
+    "spec": [
+      17,
+      24,
+      29,
+      59,
+      67,
+      45
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-182",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.17243,
+      111.90319
+    ],
+    "conf": 99.5,
+    "ndvi": 0.79,
+    "ndwi": -0.51,
+    "ndbi": -0.3,
+    "mangrove": 1.65,
+    "evi": 0.46,
+    "bsi": -0.25,
+    "spec": [
+      6,
+      11,
+      7,
+      65,
+      35,
+      19
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-183",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.18153,
+      111.92194
+    ],
+    "conf": 99.9,
+    "ndvi": 0.78,
+    "ndwi": -0.46,
+    "ndbi": -0.27,
+    "mangrove": 1.7,
+    "evi": 0.52,
+    "bsi": -0.21,
+    "spec": [
+      6,
+      17,
+      10,
+      80,
+      46,
+      24
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-184",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Kebun Hortikultura & Apel Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.17993,
+      111.11942
+    ],
+    "conf": 100.0,
+    "ndvi": 0.26,
+    "ndwi": -0.34,
+    "ndbi": 0.04,
+    "mangrove": 0.59,
+    "evi": 0.06,
+    "bsi": 0.08,
+    "spec": [
+      6,
+      8,
+      9,
+      16,
+      17,
+      11
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-185",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67765,
+      111.22758
+    ],
+    "conf": 100.0,
+    "ndvi": 0.5,
+    "ndwi": -0.39,
+    "ndbi": -0.12,
+    "mangrove": 0.95,
+    "evi": 0.37,
+    "bsi": -0.06,
+    "spec": [
+      18,
+      25,
+      24,
+      73,
+      57,
+      37
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-186",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67697,
+      111.22961
+    ],
+    "conf": 90.5,
+    "ndvi": 0.61,
+    "ndwi": -0.47,
+    "ndbi": -0.14,
+    "mangrove": 1.11,
+    "evi": 0.42,
+    "bsi": -0.08,
+    "spec": [
+      12,
+      20,
+      18,
+      74,
+      56,
+      35
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-187",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67653,
+      111.22898
+    ],
+    "conf": 100.0,
+    "ndvi": 0.35,
+    "ndwi": -0.39,
+    "ndbi": -0.03,
+    "mangrove": 0.69,
+    "evi": 0.23,
+    "bsi": 0.05,
+    "spec": [
+      17,
+      25,
+      29,
+      61,
+      58,
+      40
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-188",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67519,
+      111.22818
+    ],
+    "conf": 100.0,
+    "ndvi": 0.25,
+    "ndwi": -0.17,
+    "ndbi": -0.08,
+    "mangrove": 0.49,
+    "evi": 0.29,
+    "bsi": -0.03,
+    "spec": [
+      46,
+      52,
+      52,
+      87,
+      74,
+      58
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-189",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67487,
+      111.22794
+    ],
+    "conf": 100.0,
+    "ndvi": 0.52,
+    "ndwi": -0.44,
+    "ndbi": -0.1,
+    "mangrove": 0.89,
+    "evi": 0.41,
+    "bsi": -0.04,
+    "spec": [
+      19,
+      26,
+      26,
+      83,
+      68,
+      47
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-190",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Pertanian Palawija Gresik Selatan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67218,
+      111.23003
+    ],
+    "conf": 99.9,
+    "ndvi": 0.55,
+    "ndwi": -0.38,
+    "ndbi": -0.17,
+    "mangrove": 1.05,
+    "evi": 0.48,
+    "bsi": -0.11,
+    "spec": [
+      21,
+      27,
+      24,
+      86,
+      61,
+      41
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-191",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67077,
+      111.23052
+    ],
+    "conf": 99.2,
+    "ndvi": 0.19,
+    "ndwi": -0.26,
+    "ndbi": 0.04,
+    "mangrove": 0.43,
+    "evi": 0.16,
+    "bsi": 0.05,
+    "spec": [
+      34,
+      37,
+      40,
+      59,
+      64,
+      51
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-192",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67007,
+      111.23291
+    ],
+    "conf": 99.9,
+    "ndvi": 0.41,
+    "ndwi": -0.41,
+    "ndbi": -0.0,
+    "mangrove": 0.64,
+    "evi": 0.32,
+    "bsi": 0.02,
+    "spec": [
+      23,
+      27,
+      27,
+      66,
+      66,
+      50
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-193",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.66884,
+      111.23453
+    ],
+    "conf": 95.3,
+    "ndvi": 0.33,
+    "ndwi": -0.38,
+    "ndbi": 0.03,
+    "mangrove": 0.55,
+    "evi": 0.26,
+    "bsi": 0.06,
+    "spec": [
+      27,
+      31,
+      33,
+      66,
+      70,
+      53
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-194",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.66718,
+      111.2335
+    ],
+    "conf": 99.9,
+    "ndvi": 0.29,
+    "ndwi": -0.36,
+    "ndbi": 0.04,
+    "mangrove": 0.51,
+    "evi": 0.22,
+    "bsi": 0.06,
+    "spec": [
+      27,
+      31,
+      33,
+      60,
+      65,
+      48
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-195",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.66726,
+      111.23399
+    ],
+    "conf": 100.0,
+    "ndvi": 0.39,
+    "ndwi": -0.36,
+    "ndbi": -0.04,
+    "mangrove": 0.72,
+    "evi": 0.3,
+    "bsi": -0.0,
+    "spec": [
+      23,
+      27,
+      28,
+      64,
+      59,
+      42
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-196",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Pertanian Palawija Gresik Selatan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.66595,
+      111.23259
+    ],
+    "conf": 99.8,
+    "ndvi": 0.44,
+    "ndwi": -0.39,
+    "ndbi": -0.07,
+    "mangrove": 0.79,
+    "evi": 0.33,
+    "bsi": -0.03,
+    "spec": [
+      22,
+      25,
+      26,
+      68,
+      59,
+      41
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-197",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67126,
+      111.23716
+    ],
+    "conf": 99.8,
+    "ndvi": 0.54,
+    "ndwi": -0.49,
+    "ndbi": -0.1,
+    "mangrove": 0.92,
+    "evi": 0.39,
+    "bsi": -0.03,
+    "spec": [
+      14,
+      21,
+      23,
+      78,
+      64,
+      39
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-198",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.18226,
+      112.59739
+    ],
+    "conf": 99.5,
+    "ndvi": 0.18,
+    "ndwi": -0.43,
+    "ndbi": 0.13,
+    "mangrove": 0.3,
+    "evi": 0.1,
+    "bsi": 0.18,
+    "spec": [
+      16,
+      23,
+      30,
+      44,
+      57,
+      43
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-199",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.18361,
+      112.59923
+    ],
+    "conf": 100.0,
+    "ndvi": 0.28,
+    "ndwi": 0.29,
+    "ndbi": -0.38,
+    "mangrove": 0.96,
+    "evi": 0.12,
+    "bsi": -0.17,
+    "spec": [
+      12,
+      24,
+      16,
+      29,
+      13,
+      9
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-200",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Perkebunan Sayur Bumiaji",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.04766,
+      112.62239
+    ],
+    "conf": 96.8,
+    "ndvi": 0.42,
+    "ndwi": -0.46,
+    "ndbi": 0.02,
+    "mangrove": 0.62,
+    "evi": 0.29,
+    "bsi": 0.05,
+    "spec": [
+      19,
+      24,
+      25,
+      63,
+      65,
+      51
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-201",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Kebun Hortikultura & Apel Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.04577,
+      112.62238
+    ],
+    "conf": 99.3,
+    "ndvi": 0.24,
+    "ndwi": -0.42,
+    "ndbi": 0.1,
+    "mangrove": 0.35,
+    "evi": 0.17,
+    "bsi": 0.13,
+    "spec": [
+      24,
+      29,
+      35,
+      57,
+      71,
+      60
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-202",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Kebun Hortikultura & Apel Batu",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.04359,
+      112.62328
+    ],
+    "conf": 100.0,
+    "ndvi": 0.18,
+    "ndwi": 0.04,
+    "ndbi": -0.22,
+    "mangrove": 0.55,
+    "evi": 0.07,
+    "bsi": -0.1,
+    "spec": [
+      15,
+      16,
+      16,
+      23,
+      15,
+      10
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-203",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Sawah Berterasering Pujon",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.03968,
+      112.6241
+    ],
+    "conf": 99.7,
+    "ndvi": 0.78,
+    "ndwi": -0.43,
+    "ndbi": -0.32,
+    "mangrove": 1.68,
+    "evi": 0.49,
+    "bsi": -0.29,
+    "spec": [
+      10,
+      13,
+      8,
+      64,
+      33,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-204",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Sayuran Dau Malang",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.0401,
+      112.62403
+    ],
+    "conf": 99.3,
+    "ndvi": 0.67,
+    "ndwi": -0.34,
+    "ndbi": -0.25,
+    "mangrove": 1.37,
+    "evi": 0.36,
+    "bsi": -0.21,
+    "spec": [
+      11,
+      14,
+      10,
+      49,
+      29,
+      16
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-205",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Padi Singosari",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.04136,
+      112.62559
+    ],
+    "conf": 98.8,
+    "ndvi": 0.74,
+    "ndwi": -0.38,
+    "ndbi": -0.3,
+    "mangrove": 1.64,
+    "evi": 0.48,
+    "bsi": -0.26,
+    "spec": [
+      11,
+      15,
+      9,
+      64,
+      34,
+      19
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-206",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Perkebunan Sayur Bumiaji",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.04272,
+      112.62573
+    ],
+    "conf": 99.8,
+    "ndvi": 0.62,
+    "ndwi": -0.32,
+    "ndbi": -0.21,
+    "mangrove": 1.34,
+    "evi": 0.32,
+    "bsi": -0.18,
+    "spec": [
+      11,
+      14,
+      10,
+      45,
+      29,
+      17
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-207",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Sawah Berterasering Pujon",
+    "city": "Malang & Batu",
+    "coords": [
+      -8.04974,
+      112.63888
+    ],
+    "conf": 100.0,
+    "ndvi": 0.23,
+    "ndwi": -0.1,
+    "ndbi": -0.14,
+    "mangrove": 0.54,
+    "evi": 0.1,
+    "bsi": -0.05,
+    "spec": [
+      14,
+      17,
+      17,
+      28,
+      21,
+      14
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-208",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.65416,
+      111.53769
+    ],
+    "conf": 99.7,
+    "ndvi": 0.42,
+    "ndwi": -0.39,
+    "ndbi": 0.01,
+    "mangrove": 0.75,
+    "evi": 0.19,
+    "bsi": 0.05,
+    "spec": [
+      11,
+      17,
+      15,
+      38,
+      39,
+      26
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-209",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.65115,
+      111.53819
+    ],
+    "conf": 98.7,
+    "ndvi": 0.26,
+    "ndwi": -0.41,
+    "ndbi": 0.04,
+    "mangrove": 0.38,
+    "evi": 0.19,
+    "bsi": 0.11,
+    "spec": [
+      24,
+      33,
+      44,
+      74,
+      80,
+      58
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-210",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.65068,
+      111.53814
+    ],
+    "conf": 100.0,
+    "ndvi": 0.25,
+    "ndwi": -0.4,
+    "ndbi": 0.05,
+    "mangrove": 0.41,
+    "evi": 0.14,
+    "bsi": 0.11,
+    "spec": [
+      16,
+      23,
+      29,
+      49,
+      54,
+      40
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-211",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.64823,
+      111.53914
+    ],
+    "conf": 99.9,
+    "ndvi": 0.22,
+    "ndwi": -0.27,
+    "ndbi": -0.02,
+    "mangrove": 0.51,
+    "evi": 0.13,
+    "bsi": 0.07,
+    "spec": [
+      18,
+      26,
+      29,
+      46,
+      45,
+      32
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-212",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.64617,
+      111.53562
+    ],
+    "conf": 99.3,
+    "ndvi": 0.21,
+    "ndwi": -0.41,
+    "ndbi": 0.11,
+    "mangrove": 0.43,
+    "evi": 0.1,
+    "bsi": 0.15,
+    "spec": [
+      15,
+      20,
+      25,
+      38,
+      48,
+      39
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-213",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.64532,
+      111.53655
+    ],
+    "conf": 99.6,
+    "ndvi": 0.47,
+    "ndwi": -0.45,
+    "ndbi": 0.0,
+    "mangrove": 0.67,
+    "evi": 0.27,
+    "bsi": 0.04,
+    "spec": [
+      13,
+      20,
+      18,
+      52,
+      52,
+      38
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-214",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Lahan Pertanian Babat",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.64452,
+      111.53692
+    ],
+    "conf": 97.7,
+    "ndvi": 0.3,
+    "ndwi": -0.45,
+    "ndbi": 0.07,
+    "mangrove": 0.44,
+    "evi": 0.2,
+    "bsi": 0.12,
+    "spec": [
+      20,
+      27,
+      34,
+      64,
+      73,
+      55
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-215",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sawah Irigasi Bengawan Solo Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67193,
+      111.51596
+    ],
+    "conf": 100.0,
+    "ndvi": 0.19,
+    "ndwi": -0.42,
+    "ndbi": 0.11,
+    "mangrove": 0.29,
+    "evi": 0.12,
+    "bsi": 0.16,
+    "spec": [
+      22,
+      28,
+      38,
+      55,
+      69,
+      54
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-216",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67204,
+      111.51706
+    ],
+    "conf": 100.0,
+    "ndvi": 0.16,
+    "ndwi": -0.38,
+    "ndbi": 0.1,
+    "mangrove": 0.29,
+    "evi": 0.1,
+    "bsi": 0.15,
+    "spec": [
+      22,
+      27,
+      36,
+      51,
+      61,
+      49
+    ],
+    "split": "train"
+  },
+  {
+    "id": "JTM-FAR-217",
+    "class": "farm",
+    "class_id": 1,
+    "name": "Sentra Padi Sawah Lamongan",
+    "city": "Gresik / Lamongan",
+    "coords": [
+      -7.67215,
+      111.51848
+    ],
+    "conf": 100.0,
+    "ndvi": 0.13,
+    "ndwi": 0.02,
+    "ndbi": -0.26,
+    "mangrove": 0.54,
+    "evi": 0.06,
+    "bsi": -0.03,
+    "spec": [
+      16,
+      21,
+      27,
+      35,
+      21,
+      14
+    ],
+    "split": "train"
+  }
+]

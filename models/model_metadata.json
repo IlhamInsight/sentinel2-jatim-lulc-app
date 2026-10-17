@@ -10,35 +10,19 @@
     "NDVI",
     "MNDWI",
     "NDBI",
-    "B8A_B11_Ratio",
     "Mangrove_Index_8A_11_4",
-    "SAVI",
-    "MSAVI",
-    "BSI",
-    "UI",
-    "EBBI",
-    "NDBI_NDVI_Diff",
     "EVI",
-    "GNDVI",
-    "NDMI_Narrow",
-    "SWIR_Ratio",
-    "Soil_Iron_Oxide",
-    "AWEI_nsh",
-    "TC_Wetness",
-    "Mangrove_Substrate_Moisture",
-    "IBI",
-    "VR",
-    "Urban_Impervious_Ratio"
+    "BSI"
   ],
-  "total_features": 29,
+  "total_features": 13,
   "classes": [
     "Bangunan",
-    "Hutan",
-    "Hutan Mangrove",
+    "Pertanian",
     "Perairan",
-    "Pertanian"
+    "Hutan Daratan",
+    "Hutan Mangrove"
   ],
   "n_classes": 5,
-  "n_train": 200,
-  "n_test": 50
+  "pixel_accuracy": 0.8517624336069531,
+  "polygon_accuracy": 0.9090909090909091
 }
